@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_sihs_capital_exp_routing</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Routing Table Roles</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) 
+ {
+	var previousUser = "";
+	var currentUser = "";
+	
+	
+	
+	for (var x in current)
+	{
+			if (current[x] != previous[x])
+			{
+				gs.info("# changed! " + x);
+
+					if (x != 'sys_mod_count' && x != 'sys_updated_on')
+					{
+						previousUser = previous[x];
+						currentUser = current[x]; // Ex. clinical_engineering[user_name]
+
+ 						//gs.info("# after: " + currentUser + " | " + current.getDisplayValue(x));
+ 						//gs.info("# before: " + previousUser + " | " + previous.getDisplayValue(x));
+
+					
+						var reqRole = getRole(x);
+						var rowCountPrevious = 0; // 						gs.info("# RET ROLE: " + reqRole);
+						var rowCountCurrent = 0;
+						// Provision & Deprovision Roles
+						
+						
+							// Query the Routings table to see if the previousUser already has a record in the column ( x )
+							var grPreviousUser = new GlideRecord('x_sihs_capital_exp_routing');
+								grPreviousUser.addQuery(x,'=',previousUser);
+								grPreviousUser.query();
+
+								rowCountPrevious = grPreviousUser.getRowCount(); // get Row Count found
+
+								if (rowCountPrevious < 1) // this is an onAfter BR -- so when removing the last record, rowCountPrevious will equal 0. (< 1)
+								{
+									deprovisionRole(previousUser, reqRole);
+								}
+
+						
+							// Query the Routings table to see if the currentUser already has a record in the column ( x )
+							var grCurrentUser = new GlideRecord('x_sihs_capital_exp_routing');
+								grCurrentUser.addQuery(x,'=',currentUser);
+								grCurrentUser.query();
+							
+								rowCountCurrent = grCurrentUser.getRowCount(); // get Row Count found
+						
+								if(rowCountCurrent == 1) // if only one record found ( the one we just inserted on table )
+								{
+									provisionRole(currentUser, reqRole);
+								}
+					}
+			}
+
+	}
+	
+	
+	
+	function getRole(currentRecord)
+	{
+ 		//gs.info("# CURRENT RECORD: " + currentRecord);
+		
+			var gr = new GlideRecord('x_sihs_capital_exp_routing_roles');
+				gr.addQuery('column_name','=', currentRecord);
+				gr.query();
+			
+				if(gr.next())
+				{
+					var role = gr.role;
+					gs.info("# GET ROLE: " + role);
+
+					return role;
+				}
+	}
+	
+	
+	function provisionRole(user, role)
+	{
+			var gr = new GlideRecord('sys_user_has_role');
+
+	 			gs.info("# PROVISION" + "\n User: " + user + "\n Role: " + role);
+
+				gr.initialize();
+
+				gr.user = user;
+				gr.role = role;
+
+				gr.insert();
+	}
+	
+	
+	function deprovisionRole(user, role)
+	{
+ 		gs.info("# DEPROVISION FUNCTION: " + "\n User: " + user + "\n Role: " + role);
+		
+			var gr = new GlideRecord('sys_user_has_role');
+				gr.addQuery('user','=', user);
+				gr.addQuery('role','=', role);
+				gr.query();
+
+				if(gr.next())
+				{
+	 				gs.info("# DEPROVISION FOUND" + "\n User: " + user + "\n Role" + role);
+
+					gr.deleteRecord();
+				}
+	}
+	
+	
+	
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>0kyhill</sys_created_by>
+        <sys_created_on>2018-04-20 19:15:49</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>fb5e89d20fa5d340dc325d78a1050e7f</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name>Routing Table Roles</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Capital Expenditure" source="x_sihs_capital_exp">937153a00f909b40dc325d78a1050ede</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Capital Expenditure">937153a00f909b40dc325d78a1050ede</sys_scope>
+        <sys_update_name>sys_script_fb5e89d20fa5d340dc325d78a1050e7f</sys_update_name>
+        <sys_updated_by>0kyhill</sys_updated_by>
+        <sys_updated_on>2018-04-23 20:05:15</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=fb5e89d20fa5d340dc325d78a1050e7f"/>
+</record_update>

@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element audit="true" extends="task" label="Capital Expenditure" max_length="40" name="x_sihs_capital_exp_capital_expenditure" sizeclass="3" type="collection">
+        <element label="Stage" max_length="80" name="stage" read_only="true" type="workflow"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Additional Counter" max_length="40" name="u_additional_counter" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Additional Floor" max_length="40" name="u_additional_floor" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Additional Room" max_length="40" name="u_additional_room" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Does the equipment require additional space" mandatory="true" max_length="40" name="u_additional_space_req" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Has Capital Asset Change form been completed" max_length="40" name="u_asset_deletion_completed" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Activity #" max_length="40" name="u_capex_activity_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Control number" mandatory="true" max_length="40" name="u_capex_ctrl_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Equipment Replacement" max_length="40" name="u_capex_equip_replacement" type="string">
+            <choice>
+                <element label="Yes have control number" sequence="0" value="Yes have control number"/>
+                <element label="Yes have asset ID" sequence="1" value="Yes have asset ID"/>
+                <element label="Yes have serial number" sequence="2" value="Yes have serial number"/>
+                <element label="Yes no identification" sequence="3" value="Yes no identification"/>
+                <element label="No" sequence="4" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Identify funding source" max_length="40" name="u_capex_funding_source" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Justification" mandatory="true" max_length="40" name="u_capex_justification" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="PO #" max_length="40" name="u_capex_po_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Requisition #" max_length="40" name="u_capex_req_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Submitted By" mandatory="true" max_length="40" name="u_capex_submitted_by" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Can this device capture patient data" mandatory="true" max_length="40" name="u_cappat_data" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="omit_sys_original=true" label="Construction Estimate" max_length="20" name="u_construction_estimate" read_only="true" type="price"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Utility Connections" mandatory="true" max_length="40" name="u_construction_utility_connections" type="string">
+            <choice>
+                <element label="Yes available" sequence="0" value="Yes1"/>
+                <element label="Yes additional needed" sequence="1" value="Yes2"/>
+                <element label="No" sequence="2" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Alarms" max_length="40" name="u_equipmon_alarms" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Humidity" max_length="40" name="u_equipmon_humidity" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Equipment Monitoring Device required" mandatory="true" max_length="40" name="u_equipmon_required" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Temperature" max_length="40" name="u_equipmon_temp" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Asset ID" max_length="40" name="u_equip_replace_assetid" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Serial Number" max_length="40" name="u_equip_replace_serialnum" type="string"/>
+        <element attributes="omit_sys_original=true" label="Installation Cost" max_length="20" name="u_installation_cost" read_only="true" type="price"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="IT interfaces required" max_length="40" name="u_itinterfaces_req" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="IT interfaces required" mandatory="true" max_length="40" name="u_itinterface_required" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Operator manuals included" mandatory="true" max_length="40" name="u_operator_manual" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Reason for replacement" max_length="40" name="u_reason_for_replacement" type="string">
+            <choice>
+                <element label="Additional equipment needed" sequence="0" value="Additional equipment needed"/>
+                <element label="Replacement of defective equipment" sequence="1" value="Replacement of defective equipment"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Reconfiguration of existing room" max_length="40" name="u_reconfig_existing_room" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element label="Requested for" max_length="32" name="u_requested_for" reference="sys_user" type="reference"/>
+        <element label="Facility" mandatory="true" max_length="32" name="u_req_details_facility" reference="x_sihs_capital_exp_facility" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Vendor contact responsible for repair and maintenance" max_length="40" name="u_responsible_party" type="string"/>
+        <element label="Clinical Engineering" max_length="40" name="u_review_clinical_engineering" type="boolean"/>
+        <element label="Facility Engineering" max_length="40" name="u_review_facility_engineering" type="boolean"/>
+        <element label="Information Technology" max_length="40" name="u_review_information_technology" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Service manuals included" mandatory="true" max_length="40" name="u_service_manuals" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="omit_sys_original=true" label="Shipping and Handling" max_length="20" name="u_shipping_handling" read_only="true" type="price"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Clinical Engineering" max_length="40" name="u_sihresponsible_clineng" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Facilities Engineering" max_length="40" name="u_sihresponsible_faceng" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Information Technology" max_length="40" name="u_sihresponsible_infotech" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Materials Management" max_length="40" name="u_sihresponsible_matman" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Clinical Engineering" max_length="40" name="u_sihsetup_clineng" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Facilities Engineering" max_length="40" name="u_sihsetup_faceng" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Information Technology" max_length="40" name="u_sihsetup_infotech" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Materials Management" max_length="40" name="u_sihsetup_matman" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Vendor contact responsible for assembly, setup, and/or installation" max_length="40" name="u_sihsetup_responparty" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Is an SIH department responsible for repair and maintenance" mandatory="true" max_length="40" name="u_sih_repair_responsible" type="string">
+            <choice>
+                <element label="Yes Facilities Engineering" sequence="0" value="Yes Facilities Engineering"/>
+                <element label="Yes Clinical Engineering" sequence="1" value="Yes Clinical Engineering"/>
+                <element label="Yes Information Technology" sequence="2" value="Yes Information Technology"/>
+                <element label="Yes Materials Management" sequence="3" value="Yes Materials Management"/>
+                <element label="No" sequence="4" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Is SIH responsible for assembly, setup, and/or installation" mandatory="true" max_length="40" name="u_sih_responsible_setup" type="string">
+            <choice>
+                <element label="Yes Facilities Engineering" sequence="0" value="Yes Facilities Engineering"/>
+                <element label="Yes Clinical Engineering" sequence="1" value="Yes Clinical Engineering"/>
+                <element label="Yes Information Technology" sequence="2" value="Yes Information Technology"/>
+                <element label="Yes Materials Management" sequence="3" value="Yes Materials Management"/>
+                <element label="No" sequence="4" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Stratajazz ID#" max_length="40" name="u_stratajazz_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Is this included in Stratajazz capital budget request" mandatory="true" max_length="40" name="u_stratajazz_request" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="omit_sys_original=true" label="Total Request" max_length="20" name="u_total_request" read_only="true" type="price"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Air" max_length="40" name="u_utility_air" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Data" max_length="40" name="u_utility_data" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Electrical" max_length="40" name="u_utility_electrical" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Mechanical / Exhaust" max_length="40" name="u_utility_mechexhaust" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Medical Gas" max_length="40" name="u_utility_medgas" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Oxygen" max_length="40" name="u_utility_oxygen" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Suction" max_length="40" name="u_utility_suction" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Water / drain" max_length="40" name="u_utility_waterdrain" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+    </element>
+</database>

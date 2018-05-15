@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <disabled>ignore</disabled>
+        <field>u_stratajazz_id</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>0kyhill</sys_created_by>
+        <sys_created_on>2018-02-26 18:06:02</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>caca1c593720d7009e89daa543990e4a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_stratajazz_id</sys_name>
+        <sys_package display_value="Capital Expenditure" source="x_sihs_capital_exp">937153a00f909b40dc325d78a1050ede</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Capital Expenditure">937153a00f909b40dc325d78a1050ede</sys_scope>
+        <sys_update_name>sys_ui_policy_action_caca1c593720d7009e89daa543990e4a</sys_update_name>
+        <sys_updated_by>0kyhill</sys_updated_by>
+        <sys_updated_on>2018-02-26 18:06:02</sys_updated_on>
+        <table>x_sihs_capital_exp_capital_expenditure</table>
+        <ui_policy display_value="Stratajazz - YES">946a94593720d7009e89daa543990e8c</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+</record_update>

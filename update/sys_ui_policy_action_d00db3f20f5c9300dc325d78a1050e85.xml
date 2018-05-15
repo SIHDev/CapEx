@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <disabled>ignore</disabled>
+        <field>u_sihsetup_matman</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>0kyhill</sys_created_by>
+        <sys_created_on>2018-02-19 16:09:34</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>d00db3f20f5c9300dc325d78a1050e85</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_sihsetup_matman</sys_name>
+        <sys_package display_value="Capital Expenditure" source="x_sihs_capital_exp">937153a00f909b40dc325d78a1050ede</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Capital Expenditure">937153a00f909b40dc325d78a1050ede</sys_scope>
+        <sys_update_name>sys_ui_policy_action_d00db3f20f5c9300dc325d78a1050e85</sys_update_name>
+        <sys_updated_by>0kyhill</sys_updated_by>
+        <sys_updated_on>2018-02-19 16:09:34</sys_updated_on>
+        <table>x_sihs_capital_exp_capital_expenditure</table>
+        <ui_policy display_value="SIH responsible for assembly / setup / installation - YES">eb6cfbb20f5c9300dc325d78a1050e16</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+</record_update>

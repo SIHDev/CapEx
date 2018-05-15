@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="coo_vp" label="COO VP" language="en" table="x_sihs_capital_exp_routing">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>coo_vp</element>
+            <help/>
+            <hint/>
+            <label>COO VP</label>
+            <language>en</language>
+            <name>x_sihs_capital_exp_routing</name>
+            <plural>COO VPs</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>0kyhill</sys_created_by>
+            <sys_created_on>2018-04-09 15:44:33</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>923dc0fe371997009e89daa543990ec4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>COO VP</sys_name>
+            <sys_package display_value="Capital Expenditure" source="x_sihs_capital_exp">937153a00f909b40dc325d78a1050ede</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Capital Expenditure">937153a00f909b40dc325d78a1050ede</sys_scope>
+            <sys_update_name>sys_documentation_x_sihs_capital_exp_routing_coo_vp_en</sys_update_name>
+            <sys_updated_by>0kyhill</sys_updated_by>
+            <sys_updated_on>2018-04-09 15:44:33</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

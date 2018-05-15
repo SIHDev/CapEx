@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_sih_repair_responsible" table="x_sihs_capital_exp_capital_expenditure" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_sih_repair_responsible</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Yes Facilities Engineering</label>
+            <language>en</language>
+            <name>x_sihs_capital_exp_capital_expenditure</name>
+            <sequence>0</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2018-04-04 14:52:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8361520937dd93009e89daa543990e98</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2018-04-04 14:52:46</sys_updated_on>
+            <value>Yes Facilities Engineering</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_sih_repair_responsible</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Yes Clinical Engineering</label>
+            <language>en</language>
+            <name>x_sihs_capital_exp_capital_expenditure</name>
+            <sequence>1</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2018-04-04 14:52:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c361520937dd93009e89daa543990e98</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2018-04-04 14:52:46</sys_updated_on>
+            <value>Yes Clinical Engineering</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_sih_repair_responsible</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Yes Information Technology</label>
+            <language>en</language>
+            <name>x_sihs_capital_exp_capital_expenditure</name>
+            <sequence>2</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2018-04-04 14:52:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0761520937dd93009e89daa543990e98</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2018-04-04 14:52:46</sys_updated_on>
+            <value>Yes Information Technology</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_sih_repair_responsible</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Yes Materials Management</label>
+            <language>en</language>
+            <name>x_sihs_capital_exp_capital_expenditure</name>
+            <sequence>3</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2018-04-04 14:52:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4761520937dd93009e89daa543990e98</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2018-04-04 14:52:46</sys_updated_on>
+            <value>Yes Materials Management</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_sih_repair_responsible</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>No</label>
+            <language>en</language>
+            <name>x_sihs_capital_exp_capital_expenditure</name>
+            <sequence>4</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2018-04-04 14:52:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8761520937dd93009e89daa543990e98</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2018-04-04 14:52:46</sys_updated_on>
+            <value>No</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_sih_repair_responsible</element>
+            <name>x_sihs_capital_exp_capital_expenditure</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2018-04-04 14:52:46</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>8b61520937dd93009e89daa543990e98</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_sih_repair_responsible</sys_name>
+            <sys_package display_value="Capital Expenditure" source="x_sihs_capital_exp">937153a00f909b40dc325d78a1050ede</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Capital Expenditure">937153a00f909b40dc325d78a1050ede</sys_scope>
+            <sys_update_name>sys_choice_x_sihs_capital_exp_capital_expenditure_u_sih_repair_responsible</sys_update_name>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2018-04-04 14:52:46</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

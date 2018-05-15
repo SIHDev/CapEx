@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Routing Roles" max_length="40" name="x_sihs_capital_exp_routing_roles" type="collection">
+        <element label="Column Label" max_length="100" name="column_label" type="string"/>
+        <element label="Column Name" max_length="100" name="column_name" type="string"/>
+        <element label="Role" max_length="32" name="role" reference="sys_user_role" type="reference"/>
+        <index name="index">
+            <element name="role"/>
+        </index>
+    </element>
+</database>

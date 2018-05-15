@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>true</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_sihs_capital_exp_request_line_items</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>CapEx - Request Line Items</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+var costArray = [];
+var total = 0;
+var extendedCost = 0;
+
+var constructionTotal = 0;
+var shippingTotal = 0;
+var installationCost = 0;
+var lineItemTotal = 0;
+	
+var constructionCategory = 'f408e73f0f585700dc325d78a1050e47';
+var shippingCategory = '8df7673f0f585700dc325d78a1050eb8';
+var installationCategory = 'cff7eb3f0f585700dc325d78a1050ea7';
+var lineItemCategory = '89e72f3f0f585700dc325d78a1050ed5';
+	
+	
+
+var gr = new GlideRecord('x_sihs_capital_exp_request_line_items');
+	gr.addQuery('cap_ex_request','=', current.cap_ex_request);
+	gr.query();
+	
+	
+	while(gr.next())
+	{
+			var currentTotal = gr.quantity * gr.unit_cost; 
+			
+			extendedCost = gr.quantity * gr.unit_cost;
+	
+			
+			//----- CONSTRUCTION
+			if(gr.lineitem_cost_category == constructionCategory)
+			{
+				constructionTotal += currentTotal;
+				//gs.info("CONSTRUCTION: " + constructionTotal);
+			}
+
+			//----- SHIPPING & HANDLING
+			else if (gr.lineitem_cost_category == shippingCategory)
+			{
+				shippingTotal += currentTotal;
+				//gs.info("SHIPPING AND HANDLING: " + shippingTotal);
+			}
+
+			//----- INSTALLATION
+			else if (gr.lineitem_cost_category == installationCategory)
+			{
+				installationCost += currentTotal;
+				//gs.info("INSTALLATION: " + installationCost);
+			}
+		
+			//----- LINE ITEM
+			else if (gr.lineitem_cost_category == lineItemCategory)
+			{
+				installationCost += currentTotal;
+				//gs.info("INSTALLATION: " + lineItemTotal);
+			}
+		
+			gr.extended_cost = currentTotal;
+			gr.update();
+
+		costArray.push(extendedCost.toString()); //unit_cost		
+		
+	}
+	
+	for (i = 0; i < costArray.length; i++)
+	{
+		total += parseFloat(costArray[i]);
+	}
+
+
+var gr2 = new GlideRecord('x_sihs_capital_exp_capital_expenditure');
+	gr2.addQuery('sys_id','=',current.cap_ex_request);
+	gr2.query();
+	
+	if(gr2.next())
+	{
+		gr2.u_total_request = total;
+		
+		gr2.u_construction_estimate = constructionTotal; // need to check if there was a construction estimate
+		gr2.u_installation_cost = installationCost;
+		gr2.u_shipping_handling = shippingTotal;
+		
+		gr2.update();
+
+	}
+
+	
+	
+	
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>0kyhill</sys_created_by>
+        <sys_created_on>2018-03-02 15:45:28</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>27b0e42a37689b009e89daa543990ebf</sys_id>
+        <sys_mod_count>19</sys_mod_count>
+        <sys_name>CapEx - Request Line Items</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Capital Expenditure" source="x_sihs_capital_exp">937153a00f909b40dc325d78a1050ede</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Capital Expenditure">937153a00f909b40dc325d78a1050ede</sys_scope>
+        <sys_update_name>sys_script_27b0e42a37689b009e89daa543990ebf</sys_update_name>
+        <sys_updated_by>0kyhill</sys_updated_by>
+        <sys_updated_on>2018-04-26 20:03:00</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=27b0e42a37689b009e89daa543990ebf"/>
+</record_update>

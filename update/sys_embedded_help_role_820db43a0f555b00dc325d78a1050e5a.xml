@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_sihs_capital_exp.ce_checkbox" name="x_sihs_capital_exp.ce_checkbox">384c3cf60f555b00dc325d78a1050e61</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>0kyhill</sys_created_by>
+        <sys_created_on>2018-04-09 19:13:26</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>820db43a0f555b00dc325d78a1050e5a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>384c3cf60f555b00dc325d78a1050e61</sys_name>
+        <sys_package display_value="Capital Expenditure" source="x_sihs_capital_exp">937153a00f909b40dc325d78a1050ede</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Capital Expenditure">937153a00f909b40dc325d78a1050ede</sys_scope>
+        <sys_update_name>sys_embedded_help_role_820db43a0f555b00dc325d78a1050e5a</sys_update_name>
+        <sys_updated_by>0kyhill</sys_updated_by>
+        <sys_updated_on>2018-04-09 19:13:26</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

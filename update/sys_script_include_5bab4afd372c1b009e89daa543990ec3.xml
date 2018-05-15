@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_sihs_capital_exp.addLineItemUIPage</api_name>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>addLineItemUIPage</name>
+        <script><![CDATA[var addLineItemUIPage = Class.create();
+addLineItemUIPage.prototype = Object.extendsObject(global.AbstractAjaxProcessor, 
+{
+
+	addLineItem: function()
+	{
+		//gs.info("SCRIPT INCLUDE: ");
+		
+		var itemDescription = this.getParameter('sysparm_itemDescription');
+		var costCategory = this.getParameter('sysparm_costCategory');
+		var capexRequest = this.getParameter('sysparm_capexRequest');
+		var quantity = this.getParameter('sysparm_quantity');
+		var vendorProductOrder = this.getParameter('sysparm_vendorProductOrder');
+		var unitCost = this.getParameter('sysparm_unitCost');
+		//var extendedCost = this.getParameter('sysparm_extendedCost');
+		var salesRep = this.getParameter('sysparm_salesRep');
+		var contactInfo = this.getParameter('sysparm_contactInfo');
+		
+		var gr = new GlideRecord('x_sihs_capital_exp_request_line_items');
+		
+			gr.initialize();
+
+			gr.item_description_name = itemDescription;
+			gr.cap_ex_request = capexRequest;
+			gr.lineitem_cost_category = costCategory;
+			gr.quantity = quantity;
+			gr.vendor_product_order_number = vendorProductOrder;
+			gr.unit_cost = unitCost;
+			//gr.extended_cost = extendedCost;
+			gr.sales_representative = salesRep;
+			gr.contact_information = contactInfo;
+		
+			gr.insert();
+		
+		
+		return "";
+	},
+	
+	
+    type: 'addLineItemUIPage'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>0kyhill</sys_created_by>
+        <sys_created_on>2018-02-28 15:40:06</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>5bab4afd372c1b009e89daa543990ec3</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name>addLineItemUIPage</sys_name>
+        <sys_package display_value="Capital Expenditure" source="x_sihs_capital_exp">937153a00f909b40dc325d78a1050ede</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Capital Expenditure">937153a00f909b40dc325d78a1050ede</sys_scope>
+        <sys_update_name>sys_script_include_5bab4afd372c1b009e89daa543990ec3</sys_update_name>
+        <sys_updated_by>0kyhill</sys_updated_by>
+        <sys_updated_on>2018-03-26 17:57:39</sys_updated_on>
+    </sys_script_include>
+</record_update>

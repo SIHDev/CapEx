@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="cap_ex_request" label="Cap Ex Request" language="en" table="x_sihs_capital_exp_request_line_items">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>cap_ex_request</element>
+            <help/>
+            <hint/>
+            <label>Cap Ex Request</label>
+            <language>en</language>
+            <name>x_sihs_capital_exp_request_line_items</name>
+            <plural>Cap Ex Requests</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>0kyhill</sys_created_by>
+            <sys_created_on>2018-02-22 17:02:31</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>c0f5a3fb0f585700dc325d78a1050e50</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Cap Ex Request</sys_name>
+            <sys_package display_value="Capital Expenditure" source="x_sihs_capital_exp">937153a00f909b40dc325d78a1050ede</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Capital Expenditure">937153a00f909b40dc325d78a1050ede</sys_scope>
+            <sys_update_name>sys_documentation_x_sihs_capital_exp_request_line_items_cap_ex_request_en</sys_update_name>
+            <sys_updated_by>0kyhill</sys_updated_by>
+            <sys_updated_on>2018-02-22 17:02:31</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

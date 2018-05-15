@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Facility" max_length="40" name="x_sihs_capital_exp_facility" type="collection">
+        <element display="true" label="Facility Name" max_length="100" name="facility_name" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="Review" section_id="cce693c237e85b009e89daa543990ea7" sys_domain="global" table="x_sihs_capital_exp_capital_expenditure" version="3" view="">
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>0kyhill</sys_created_by>
+            <sys_created_on>2018-05-15 12:39:34</sys_created_on>
+            <sys_id>771c30520fc2db00dc325d78a1050e7e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>0kyhill</sys_updated_by>
+            <sys_updated_on>2018-05-15 12:39:34</sys_updated_on>
+            <text/>
+            <type display_value="Text">863e446c0fd30000b12e6903cfe012ce</type>
+        </sys_ui_annotation>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_review_clinical_engineering</element>
+            <position>0</position>
+            <sys_created_by>0kyhill</sys_created_by>
+            <sys_created_on>2018-05-15 12:39:34</sys_created_on>
+            <sys_id>3b1c30520fc2db00dc325d78a1050e7e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Review" display_value="Review" name="x_sihs_capital_exp_capital_expenditure" sys_domain="global" view="Default view">cce693c237e85b009e89daa543990ea7</sys_ui_section>
+            <sys_updated_by>0kyhill</sys_updated_by>
+            <sys_updated_on>2018-05-15 12:39:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_review_facility_engineering</element>
+            <position>1</position>
+            <sys_created_by>0kyhill</sys_created_by>
+            <sys_created_on>2018-05-15 12:39:34</sys_created_on>
+            <sys_id>bb1c30520fc2db00dc325d78a1050e7e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Review" display_value="Review" name="x_sihs_capital_exp_capital_expenditure" sys_domain="global" view="Default view">cce693c237e85b009e89daa543990ea7</sys_ui_section>
+            <sys_updated_by>0kyhill</sys_updated_by>
+            <sys_updated_on>2018-05-15 12:39:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_review_information_technology</element>
+            <position>2</position>
+            <sys_created_by>0kyhill</sys_created_by>
+            <sys_created_on>2018-05-15 12:39:34</sys_created_on>
+            <sys_id>3f1c30520fc2db00dc325d78a1050e7e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Review" display_value="Review" name="x_sihs_capital_exp_capital_expenditure" sys_domain="global" view="Default view">cce693c237e85b009e89daa543990ea7</sys_ui_section>
+            <sys_updated_by>0kyhill</sys_updated_by>
+            <sys_updated_on>2018-05-15 12:39:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>0kyhill</sys_created_by>
+            <sys_created_on>2018-05-15 12:39:34</sys_created_on>
+            <sys_id>771c30520fc2db00dc325d78a1050e8b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Review" display_value="Review" name="x_sihs_capital_exp_capital_expenditure" sys_domain="global" view="Default view">cce693c237e85b009e89daa543990ea7</sys_ui_section>
+            <sys_updated_by>0kyhill</sys_updated_by>
+            <sys_updated_on>2018-05-15 12:39:34</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>771c30520fc2db00dc325d78a1050e7e</element>
+            <position>4</position>
+            <sys_created_by>0kyhill</sys_created_by>
+            <sys_created_on>2018-05-15 12:39:34</sys_created_on>
+            <sys_id>f71c30520fc2db00dc325d78a1050e8b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Review" display_value="Review" name="x_sihs_capital_exp_capital_expenditure" sys_domain="global" view="Default view">cce693c237e85b009e89daa543990ea7</sys_ui_section>
+            <sys_updated_by>0kyhill</sys_updated_by>
+            <sys_updated_on>2018-05-15 12:39:34</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Review</caption>
+            <header>false</header>
+            <name>x_sihs_capital_exp_capital_expenditure</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>0kyhill</sys_created_by>
+            <sys_created_on>2018-03-01 15:43:03</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cce693c237e85b009e89daa543990ea7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Review</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Capital Expenditure" source="x_sihs_capital_exp">937153a00f909b40dc325d78a1050ede</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Capital Expenditure">937153a00f909b40dc325d78a1050ede</sys_scope>
+            <sys_update_name>sys_ui_section_cce693c237e85b009e89daa543990ea7</sys_update_name>
+            <sys_updated_by>0kyhill</sys_updated_by>
+            <sys_updated_on>2018-03-01 15:43:03</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

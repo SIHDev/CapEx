@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script><![CDATA[var item_description = document.getElementById('itemDescription');
+var cost_category = document.getElementById('costCategory');
+var capex_sysId = g_form.getUniqueValue();
+var quantity = document.getElementById('capexQuantity');
+var vendorProductOrder = document.getElementById('vendorProductOrder');
+var unitCost = document.getElementById('capexUnitCost');
+//var extendedCost = document.getElementById('capexExtendedCost');
+var salesRep = document.getElementById('capexSalesRep');
+var contactInfo = document.getElementById('capexContactInfo');
+
+
+function submitRecord()
+{	
+	var ga = new GlideAjax('addLineItemUIPage');
+		ga.addParam('sysparm_name','addLineItem');
+		
+		ga.addParam('sysparm_itemDescription', item_description.value);
+		ga.addParam('sysparm_capexRequest', capex_sysId);
+		ga.addParam('sysparm_costCategory', cost_category.value);
+		ga.addParam('sysparm_quantity', quantity.value);
+		ga.addParam('sysparm_vendorProductOrder', vendorProductOrder.value);
+		ga.addParam('sysparm_unitCost', unitCost.value);
+		//ga.addParam('sysparm_extendedCost', extendedCost.value);
+		ga.addParam('sysparm_salesRep', salesRep.value);
+		ga.addParam('sysparm_contactInfo', contactInfo.value);
+	
+		ga.getXML(showMessage);
+	
+	
+		function showMessage(response)
+		{
+			GlideModal.get().destroy();
+
+			GlideList2.get(g_form.getTableName() + '.x_sihs_capital_exp_request_line_items.cap_ex_request').setFilterAndRefresh('');
+		}
+}]]></client_script>
+        <description/>
+        <direct>false</direct>
+        <endpoint>x_sihs_capital_exp_addLineItem.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+
+<div class="lineItemDiv">
+	<table class="addLineItem">
+		
+		<tr>
+			<td> <label>Attachment</label> </td>
+			<td> <g:ui_reference id="docAttachment" name="QUERY:table_sys_id=d8f8b0bc0f949b40dc325d78a1050e45" table="sys_attachment"/> </td>
+		</tr>
+		
+		<tr>
+			<td> <label>Quantity</label> </td>
+			<td> <input type="number" id="capexQuantity" name="" /> </td>
+		</tr>
+			
+		<tr>
+			<td> <label>Vendor Product Order Number</label> </td>
+			<td> <input type="text" id="vendorProductOrder" name="" /> </td>
+		</tr>
+		
+		<tr>
+			<td> <label>Item Description Name</label> </td>
+			<td> <input type="text" name="" id="itemDescription" /> </td>
+		</tr>
+		
+		<tr>
+			<td> <label>Cost Category</label> </td> 
+			<td> <g:ui_reference id="costCategory" name="costCategory" table="x_sihs_capital_exp_cost_category"/> </td>
+		</tr>
+		
+		<tr>
+			<td> <label>Unit of Measurement</label> </td>
+			<td> <input type="text" name="" /> </td>
+		</tr>
+		
+		<tr>
+			<td> <label>Unit Cost: $</label> </td>
+			<td> <input type="number" id="capexUnitCost" name="" /> </td>
+		</tr>
+		
+		<!-- <tr>
+			<td> <label>Extended Cost: $</label> </td>
+			<td> <input type="number" id="capexExtendedCost" name="" /> </td>
+		</tr> -->
+		
+		<tr>
+			<td> <label>Sales Representative</label> </td>
+			<td> <input type="text" id="capexSalesRep" name="" /> </td>
+		</tr>
+		
+		<tr>
+			<td> <label>Contact Information</label> </td>
+			<td> <input type="text" id="capexContactInfo" name="" /> </td>
+		</tr>
+		
+		<tr>
+			<td> </td>
+			<td> <button type="button" class="btn btn-info btn-sm" onclick="submitRecord()" style="float: right">Submit</button> </td>
+		</tr>
+		
+	</table>
+</div>
+	
+	
+<style>
+	
+	.lineItemDiv
+	{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	
+	label
+	{
+		width: 100%;
+	}
+	
+	
+	input
+	{
+		align: left;
+		width: 100%;
+	}
+	
+	.addLineItem th, td
+	{
+		
+		text-align: left;
+	
+		padding-left: 10px;
+		padding-right: 10px;
+	
+		padding-top: 15px;
+		padding-bottom: 15px;
+	
+		background: #ffffff;
+		color: #585c63;
+		font-weight: 500;
+		font-size: 14px;
+	
+	}
+	
+    table
+    {
+		background: #ffffff;
+		width: 100%;
+	}
+	
+</style>
+	
+	
+</j:jelly>]]></html>
+        <name>addLineItem</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>0kyhill</sys_created_by>
+        <sys_created_on>2018-02-27 20:57:54</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>2e9b0a2137201b009e89daa543990eb1</sys_id>
+        <sys_mod_count>26</sys_mod_count>
+        <sys_name>addLineItem</sys_name>
+        <sys_package display_value="Capital Expenditure" source="x_sihs_capital_exp">937153a00f909b40dc325d78a1050ede</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Capital Expenditure">937153a00f909b40dc325d78a1050ede</sys_scope>
+        <sys_update_name>sys_ui_page_2e9b0a2137201b009e89daa543990eb1</sys_update_name>
+        <sys_updated_by>0kyhill</sys_updated_by>
+        <sys_updated_on>2018-03-26 17:55:47</sys_updated_on>
+    </sys_ui_page>
+</record_update>

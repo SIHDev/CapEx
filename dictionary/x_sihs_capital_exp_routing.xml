@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Routing" max_length="40" name="x_sihs_capital_exp_routing" type="collection">
+        <element label="Accountant" max_length="32" name="accountant" reference="sys_user_group" type="reference"/>
+        <element label="Buyers" max_length="32" name="buyers" reference="sys_user_group" type="reference"/>
+        <element label="CFO" max_length="32" name="cfo_cio" reference="sys_user" type="reference"/>
+        <element label="CIO" max_length="32" name="cio" reference="sys_user" type="reference"/>
+        <element label="Clinical Engineering" max_length="32" name="clinical_engineering" reference="sys_user" type="reference"/>
+        <element label="COO VP" max_length="32" name="coo_vp" reference="sys_user" type="reference"/>
+        <element label="Facilities Engineering" max_length="32" name="facilities_engineering" reference="sys_user" type="reference"/>
+        <element label="Facility Administrator" max_length="32" name="facility_administrator" reference="sys_user" type="reference"/>
+        <element label="Facility Name" max_length="32" name="facility_name" reference="x_sihs_capital_exp_facility" type="reference"/>
+        <element label="IT" max_length="32" name="information_technology" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="facilities_engineering"/>
+        </index>
+        <index name="index2">
+            <element name="information_technology"/>
+        </index>
+        <index name="index3">
+            <element name="accountant"/>
+        </index>
+        <index name="index4">
+            <element name="buyers"/>
+        </index>
+        <index name="index5">
+            <element name="cfo_cio"/>
+        </index>
+        <index name="index6">
+            <element name="cio"/>
+        </index>
+        <index name="index7">
+            <element name="coo_vp"/>
+        </index>
+        <index name="index8">
+            <element name="facility_administrator"/>
+        </index>
+        <index name="index9">
+            <element name="clinical_engineering"/>
+        </index>
+        <index name="index10">
+            <element name="facility_name"/>
+        </index>
+    </element>
+</database>
