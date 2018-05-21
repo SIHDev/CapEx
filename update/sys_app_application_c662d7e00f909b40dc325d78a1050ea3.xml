@@ -8,7 +8,7 @@
         <hint/>
         <name>Capital Expenditure</name>
         <order>100</order>
-        <roles/>
+        <roles>x_sihs_capital_exp.App User</roles>
         <sys_class_name>sys_app_application</sys_class_name>
         <sys_created_by>0kyhill</sys_created_by>
         <sys_created_on>2018-02-12 13:16:56</sys_created_on>
@@ -16,7 +16,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c662d7e00f909b40dc325d78a1050ea3</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Capital Expenditure</sys_name>
         <sys_overrides/>
         <sys_package display_value="Capital Expenditure" source="x_sihs_capital_exp">937153a00f909b40dc325d78a1050ede</sys_package>
@@ -25,7 +25,7 @@
         <sys_scope display_value="Capital Expenditure">937153a00f909b40dc325d78a1050ede</sys_scope>
         <sys_update_name>sys_app_application_c662d7e00f909b40dc325d78a1050ea3</sys_update_name>
         <sys_updated_by>0kyhill</sys_updated_by>
-        <sys_updated_on>2018-04-24 18:33:28</sys_updated_on>
+        <sys_updated_on>2018-05-21 12:27:15</sys_updated_on>
         <title>Capital Expenditure</title>
         <view_name/>
     </sys_app_application>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element audit="true" extends="task" label="Capital Expenditure" max_length="40" name="x_sihs_capital_exp_capital_expenditure" sizeclass="3" type="collection">
+    <element audit="true" extends="task" label="Capital Expenditure" max_length="40" name="x_sihs_capital_exp_capital_expenditure" sizeclass="6" type="collection">
         <element label="Stage" max_length="80" name="stage" read_only="true" type="workflow"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Additional Counter" max_length="40" name="u_additional_counter" type="string">
             <choice>
