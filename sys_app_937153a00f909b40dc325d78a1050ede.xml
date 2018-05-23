@@ -23,14 +23,14 @@
         <sys_created_by>sri.raghunathan@snc</sys_created_by>
         <sys_created_on>2018-04-06 17:36:44</sys_created_on>
         <sys_id>937153a00f909b40dc325d78a1050ede</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_updated_by>0kyhill</sys_updated_by>
-        <sys_updated_on>2018-05-23 14:39:53</sys_updated_on>
+        <sys_updated_on>2018-05-23 14:45:12</sys_updated_on>
         <template/>
         <trackable>true</trackable>
         <user_role/>
         <vendor>Southern Illinois Healthcare</vendor>
         <vendor_prefix/>
-        <version>1.0.5</version>
+        <version>1.0.6</version>
     </sys_app>
 </record_update>
