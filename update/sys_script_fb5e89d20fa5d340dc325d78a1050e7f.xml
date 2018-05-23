@@ -39,7 +39,7 @@
 	{
 			if (current[x] != previous[x])
 			{
-				gs.info("# changed! " + x);
+				//gs.info("# changed! " + x);
 
 					if (x != 'sys_mod_count' && x != 'sys_updated_on')
 					{
@@ -98,7 +98,7 @@
 				if(gr.next())
 				{
 					var role = gr.role;
-					gs.info("# GET ROLE: " + role);
+					//gs.info("# GET ROLE: " + role);
 
 					return role;
 				}
@@ -109,7 +109,7 @@
 	{
 			var gr = new GlideRecord('sys_user_has_role');
 
-	 			gs.info("# PROVISION" + "\n User: " + user + "\n Role: " + role);
+	 			//gs.info("# PROVISION" + "\n User: " + user + "\n Role: " + role);
 
 				gr.initialize();
 
@@ -122,7 +122,7 @@
 	
 	function deprovisionRole(user, role)
 	{
- 		gs.info("# DEPROVISION FUNCTION: " + "\n User: " + user + "\n Role: " + role);
+ 		//gs.info("# DEPROVISION FUNCTION: " + "\n User: " + user + "\n Role: " + role);
 		
 			var gr = new GlideRecord('sys_user_has_role');
 				gr.addQuery('user','=', user);
@@ -131,7 +131,7 @@
 
 				if(gr.next())
 				{
-	 				gs.info("# DEPROVISION FOUND" + "\n User: " + user + "\n Role" + role);
+	 				//gs.info("# DEPROVISION FOUND" + "\n User: " + user + "\n Role" + role);
 
 					gr.deleteRecord();
 				}
@@ -147,7 +147,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>fb5e89d20fa5d340dc325d78a1050e7f</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_name>Routing Table Roles</sys_name>
         <sys_overrides/>
         <sys_package display_value="Capital Expenditure" source="x_sihs_capital_exp">937153a00f909b40dc325d78a1050ede</sys_package>
@@ -156,7 +156,7 @@
         <sys_scope display_value="Capital Expenditure">937153a00f909b40dc325d78a1050ede</sys_scope>
         <sys_update_name>sys_script_fb5e89d20fa5d340dc325d78a1050e7f</sys_update_name>
         <sys_updated_by>0kyhill</sys_updated_by>
-        <sys_updated_on>2018-04-23 20:05:15</sys_updated_on>
+        <sys_updated_on>2018-05-23 14:08:24</sys_updated_on>
         <template/>
         <when>after</when>
     </sys_script>
