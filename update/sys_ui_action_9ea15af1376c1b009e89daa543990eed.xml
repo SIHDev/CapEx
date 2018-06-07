@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update sys_domain="global" table="sys_ui_action">
     <sys_ui_action action="INSERT_OR_UPDATE">
-        <action_name/>
-        <active>true</active>
+        <action_name>sysverb_lineItem</action_name>
+        <active>false</active>
         <client>true</client>
         <comments/>
         <condition/>
@@ -25,12 +25,39 @@
         <order>100</order>
         <script><![CDATA[function displayAddLiButton()
 {
+	/*
 	var gdw = new GlideModal('x_sihs_capital_exp_addLineItem'); //addLineItem
 		gdw.setTitle('Add New Line Item');
 		
 		gdw.setSize(500,500);
 		gdw.render();
-}]]></script>
+		*/
+
+	
+	var glide_url = new GlideURL();
+		glide_url.setFromCurrent(); 
+		
+	var urlSysID = glide_url.getParam("sys_id");
+	
+	alert(urlSysID);
+
+	urlRedirect(urlSysID);
+	
+//action.setRedirectURL('x_sihs_capital_exp_request_line_items.do?sys_id=-1' + "&sysparm_id=" + current.sys_id);
+
+}
+
+function urlRedirect(capSysID)
+{
+	 	var URL = 'nav_to.do?uri=/x_sihs_capital_exp_request_line_items.do?sys_id=-1&sysparm_capid=' + capSysID;
+	
+		alert("URL: " + URL);
+	
+		top.window.location = URL;
+}
+
+
+]]></script>
         <show_insert>false</show_insert>
         <show_multiple_update>false</show_multiple_update>
         <show_query>false</show_query>
@@ -42,7 +69,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>9ea15af1376c1b009e89daa543990eed</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>27</sys_mod_count>
         <sys_name>Add Line Item</sys_name>
         <sys_overrides/>
         <sys_package display_value="Capital Expenditure" source="x_sihs_capital_exp">937153a00f909b40dc325d78a1050ede</sys_package>
@@ -51,7 +78,7 @@
         <sys_scope display_value="Capital Expenditure">937153a00f909b40dc325d78a1050ede</sys_scope>
         <sys_update_name>sys_ui_action_9ea15af1376c1b009e89daa543990eed</sys_update_name>
         <sys_updated_by>0kyhill</sys_updated_by>
-        <sys_updated_on>2018-02-28 16:04:48</sys_updated_on>
+        <sys_updated_on>2018-06-07 13:52:29</sys_updated_on>
         <table>x_sihs_capital_exp_request_line_items</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

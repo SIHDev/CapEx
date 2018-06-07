@@ -3,7 +3,7 @@
     <sys_ui_action action="INSERT_OR_UPDATE">
         <action_name/>
         <active>true</active>
-        <client>true</client>
+        <client>false</client>
         <comments/>
         <condition/>
         <form_action>true</form_action>
@@ -21,16 +21,56 @@
         <list_save_with_form_button>false</list_save_with_form_button>
         <list_style/>
         <name>Add Line Item</name>
-        <onclick>displayAddLI()</onclick>
+        <onclick/>
         <order>100</order>
-        <script><![CDATA[function displayAddLI()
-{
-	var gdw = new GlideModal('x_sihs_capital_exp_addLineItem'); //addLineItem
+        <script><![CDATA[//function displayAddLI()
+//{
+	/*
+	var gdw = new GlideModal('x_sihs_capital_exp_addLineItem'); //addLineItem | x_sihs_capital_exp_addLineItem | x_sihs_capital_exp_request_line_items
 		gdw.setTitle('Add New Line Item');
 		
 		gdw.setSize(500,500);
 		gdw.render();
-}]]></script>
+		*/
+	
+//action.setRedirectURL('x_sihs_capital_exp_request_line_items.do?sys_id=-1' + "&capex_num=" + current.number);
+//}
+
+//gs.info("USER: " + gs.getUserName());
+
+var gr = new GlideRecord('x_sihs_capital_exp_line_item_record_id');
+gr.addQuery('sys_created_by', gs.getUserName());
+gr.query();
+
+if(gr.next())
+{
+	gs.info("RECORD FOUND");
+	gs.info("Deleting Record");
+	
+	gr.deleteRecord();
+	
+	gs.info("Creating Record");
+	
+	gr.initialize();
+	gr.sih_capex_id = current.sys_id;
+	gr.insert();
+}
+
+else
+{
+	gs.info("RECORD NOT FOUND");
+	gs.info("Creating Record");
+	
+	gr.initialize();
+	gr.sih_capex_id = current.sys_id;
+	gr.insert();
+}
+
+
+action.setRedirectURL('x_sihs_capital_exp_request_line_items.do?sys_id=-1' + "&capex_num=" + current.number + "&capex_sysid=" + current.sys_id);
+
+
+]]></script>
         <show_insert>false</show_insert>
         <show_multiple_update>false</show_multiple_update>
         <show_query>false</show_query>
@@ -42,7 +82,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>fd599cd53720d7009e89daa543990e01</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_name>Add Line Item</sys_name>
         <sys_overrides/>
         <sys_package display_value="Capital Expenditure" source="x_sihs_capital_exp">937153a00f909b40dc325d78a1050ede</sys_package>
@@ -51,7 +91,7 @@
         <sys_scope display_value="Capital Expenditure">937153a00f909b40dc325d78a1050ede</sys_scope>
         <sys_update_name>sys_ui_action_fd599cd53720d7009e89daa543990e01</sys_update_name>
         <sys_updated_by>0kyhill</sys_updated_by>
-        <sys_updated_on>2018-02-27 21:00:28</sys_updated_on>
+        <sys_updated_on>2018-06-07 18:40:52</sys_updated_on>
         <table>x_sihs_capital_exp_capital_expenditure</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

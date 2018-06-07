@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Line Item Record ID" max_length="40" name="x_sihs_capital_exp_line_item_record_id" type="collection">
+        <element label="SIH CapEx ID" max_length="50" name="sih_capex_id" type="string"/>
+        <element label="SIH CapEx Number" max_length="50" name="sih_capex_number" type="string"/>
+    </element>
+</database>

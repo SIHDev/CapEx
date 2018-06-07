@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name>sysverb_insert</action_name>
+        <active>true</active>
+        <client>false</client>
+        <comments/>
+        <condition/>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_style/>
+        <hint/>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <name>Submit</name>
+        <onclick>submitLineItem()</onclick>
+        <order>100</order>
+        <script><![CDATA[var capex_sysID  = "";
+
+// SETUP FOR THE REDIRECTION
+var gr = new GlideRecord('x_sihs_capital_exp_line_item_record_id');
+	gr.addQuery('sys_created_by', gs.getUserName());
+	gr.query();
+
+	if(gr.next())
+	{
+		gs.info("FOUND A RECORD FOR REDIRECTION: " + gr.sih_capex_id);
+		capex_sysID = gr.sih_capex_id;
+	}
+
+
+answer = current.insert();
+
+action.setRedirectURL('x_sihs_capital_exp_capital_expenditure.do?sys_id=' + capex_sysID);
+
+
+
+
+
+
+
+// CLIENT SIDE BASED SOLUTION 
+// (will not clear unit_cost field, thus causes alert box asking if OK to leave)
+/*
+function submitLineItem()
+{
+	
+	var glide_url = new GlideURL();
+		glide_url.setFromCurrent(); 
+		
+	var sysparmID = glide_url.getParam('sysparm_id');
+	
+	
+	var quantityField = g_form.getValue('quantity');                     // 1 
+	var vendorField = g_form.getValue('vendor_product_order_number');    // 2
+	var itemDescriptionField = g_form.getValue('item_description_name'); // 3
+	var capExReqField = g_form.getValue('cap_ex_request');               // 4
+	var costCatField = g_form.getValue('lineitem_cost_category');        // 5
+	var unitCostField = g_form.getValue('unit_cost');                    // 6
+	var contactInfoField = g_form.getValue('contact_information');       // 7
+	var attachmentField = g_form.getValue('attachment');                 // 8
+	var salesRepField = g_form.getValue('sales_representative');         // 9
+	
+	
+	
+	var ga = new GlideAjax('CapExLineItemSave');
+		ga.addParam('sysparm_name', 'saveRecord');
+		
+		ga.addParam('sysparm_quantity', quantityField);                  // 1
+		ga.addParam('sysparm_vendor', vendorField);                      // 2
+		ga.addParam('sysparm_item_desc', itemDescriptionField);          // 3
+		ga.addParam('sysparm_capex_req', capExReqField);                 // 4
+		ga.addParam('sysparm_cost_cat', costCatField);                   // 5
+		ga.addParam('sysparm_unit_cost', unitCostField);                 // 6
+		ga.addParam('sysparm_contact_info', contactInfoField);           // 7
+		ga.addParam('sysparm_attachment', attachmentField);              // 8
+		ga.addParam('sysparm_sales_rep', salesRepField);                 // 9
+		ga.addParam('sysparm_capex_sysId', sysparmID);
+	
+		ga.getXML(showMessage);
+	
+		function showMessage(response)
+		{			
+			//var answer = response.responseXML.documentElement.getAttribute("answer");
+			
+			var formFields = ['quantity',
+							  'vendor_product_order_number',
+							  'item_description_name',                   
+							  'cap_ex_request',
+							  'lineitem_cost_category',
+							 // 'unit_cost',  // <----------- COMMENT THIS OUT
+							  'contact_information',
+							  'attachment',
+							  'sales_representative'];
+			
+			
+			
+				clearFields(formFields); // Clear the fields so we will not get an alert when trying to redirect, due to form not being saved
+				g_form.setValue('unit_cost', 'NULL');
+			
+				urlRedirect(sysparmID); // Redirect back to our CapEx Request -- (sys_id) comes from parameter in URL
+	
+		}
+}
+
+
+
+function clearFields(fieldName)
+{
+	for(x=0; x < fieldName.length; x++)
+	{
+		g_form.clearValue(fieldName[x]);
+	}
+	
+	// NULL THE UNIT_COST FIELD
+	
+}
+
+
+function urlRedirect(sysID)
+{
+	 	var URL = 'nav_to.do?uri=/x_sihs_capital_exp_capital_expenditure.do?sys_id=' + sysID;
+	
+		//alert("URL: " + URL);
+	
+		top.window.location = URL;
+}
+
+
+//action.setRedirectURL('x_66521_capex_test_group_management_list.do');
+
+*/
+
+]]></script>
+        <show_insert>true</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>false</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>0kyhill</sys_created_by>
+        <sys_created_on>2018-06-06 18:32:14</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8042db11372653009e89daa543990eb6</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Submit</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Capital Expenditure" source="x_sihs_capital_exp">937153a00f909b40dc325d78a1050ede</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Capital Expenditure">937153a00f909b40dc325d78a1050ede</sys_scope>
+        <sys_update_name>sys_ui_action_8042db11372653009e89daa543990eb6</sys_update_name>
+        <sys_updated_by>0kyhill</sys_updated_by>
+        <sys_updated_on>2018-06-07 18:21:22</sys_updated_on>
+        <table>x_sihs_capital_exp_request_line_items</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+</record_update>

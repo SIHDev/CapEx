@@ -4,7 +4,7 @@
         <active>true</active>
         <category/>
         <content><![CDATA[ <h1 class="title topictitle1">Widgets</h1>  <div class="body conbody">  <p class="p"><span class="ph">Widgets enable you to define and reuse visualizations for   indicators and display these visualizations on dashboards.</span></p>  <p class="p">A widget determines how data is presented on dashboards such as in a chart,   latest score, speedometer, dial, scorecard, or column. Widgets are always linked to an   indicator.</p>  <div class="p">Widgets are global, so:<ul class="ul" id="pa_widgets_list-normal__d26658e48"><li class="li">Anyone can see a widget you created</li><li class="li">Anyone can use the widget when creating their dashboard</li><li class="li">Anyone can edit your widget</li></ul>Follow these practices when creating and editing widgets:<ul class="ul" id="pa_widgets_list-normal__d26658e60"><li class="li">Always create a new widget when you need an alternate view.</li><li class="li">Do not change an existing widget when you did not create it.</li></ul></div> </div>]]></content>
-        <last_sync>2018-05-14 04:53:08</last_sync>
+        <last_sync>2018-05-29 04:54:07</last_sync>
         <modifier>normal</modifier>
         <name>pa_widgets_list-normal</name>
         <page>pa_widgets_list</page>
@@ -18,7 +18,7 @@
         <sys_created_on>2018-03-22 21:31:11</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>6cffacc137019f409e89daa543990e15</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>pa_widgets_list-normal</sys_name>
         <sys_package display_value="Capital Expenditure" source="x_sihs_capital_exp">937153a00f909b40dc325d78a1050ede</sys_package>
         <sys_policy/>
@@ -26,7 +26,7 @@
         <sys_scope display_value="Capital Expenditure">937153a00f909b40dc325d78a1050ede</sys_scope>
         <sys_update_name>sys_embedded_help_content_6cffacc137019f409e89daa543990e15</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2018-05-14 04:53:08</sys_updated_on>
+        <sys_updated_on>2018-05-29 04:54:07</sys_updated_on>
         <version>j</version>
     </sys_embedded_help_content>
 </record_update>

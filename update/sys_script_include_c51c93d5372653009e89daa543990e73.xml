@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_sihs_capital_exp.CapExLineItemSave</api_name>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>CapExLineItemSave</name>
+        <script><![CDATA[var CapExLineItemSave = Class.create();
+CapExLineItemSave.prototype = Object.extendsObject(global.AbstractAjaxProcessor, 
+{
+	
+	saveRecord: function()
+	{
+		var quantityField = this.getParameter('sysparm_quantity');                     // 1 
+		var vendorField = this.getParameter('sysparm_vendor');                         // 2
+		var itemDescriptionField = this.getParameter('sysparm_item_desc');             // 3
+		var capExReqField = this.getParameter('sysparm_capex_req');                    // 4
+		var costCatField = this.getParameter('sysparm_cost_cat');                      // 5
+		var unitCostField = this.getParameter('sysparm_unit_cost');                    // 6
+		var contactInfoField = this.getParameter('sysparm_contact_info');              // 7
+		var attachmentField = this.getParameter('sysparm_attachment');                 // 8
+		var salesRepField = this.getParameter('sysparm_sales_rep');                    // 9
+		var capExSysId = this.getParameter('sysparm_capex_sysId');
+		
+		gs.info("SAVE ITEMS: " + "\n\nQuantity: " + quantityField + 
+								 "\nVendor: " + vendorField + 
+								 "\nItem Desc: " + itemDescriptionField + 
+								 "\nCapEx Req: " + capExReqField + " | " + capExSysId + 
+								 "\nCost Cat: " + costCatField + 
+								 "\nUnit Cost: " + unitCostField +
+								 "\nContact Info: " + contactInfoField +
+								 "\nAttachment: " + attachmentField +
+								 "\nSales Rep: " + salesRepField);
+		
+		var gr = new GlideRecord('x_sihs_capital_exp_request_line_items');
+			gr.initialize();
+		
+			gr.quantity = quantityField;
+			gr.vendor_product_order_number = vendorField;
+			gr.item_description_name = itemDescriptionField;
+			gr.cap_ex_request = capExSysId;
+			gr.lineitem_cost_category = costCatField;
+			gr.unit_cost = unitCostField;
+			gr.contact_information = contactInfoField;
+			gr.attachment = attachmentField;
+			gr.sales_representative = salesRepField;
+		
+			gr.insert();
+		
+			var data = "done";
+			return data;
+		
+	},
+
+    type: 'CapExLineItemSave'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>0kyhill</sys_created_by>
+        <sys_created_on>2018-06-06 18:32:09</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>c51c93d5372653009e89daa543990e73</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>CapExLineItemSave</sys_name>
+        <sys_package display_value="Capital Expenditure" source="x_sihs_capital_exp">937153a00f909b40dc325d78a1050ede</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Capital Expenditure">937153a00f909b40dc325d78a1050ede</sys_scope>
+        <sys_update_name>sys_script_include_c51c93d5372653009e89daa543990e73</sys_update_name>
+        <sys_updated_by>0kyhill</sys_updated_by>
+        <sys_updated_on>2018-06-07 14:26:09</sys_updated_on>
+    </sys_script_include>
+</record_update>

@@ -4,36 +4,36 @@
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
             <sys_created_by>0kyhill</sys_created_by>
-            <sys_created_on>2018-05-15 12:39:33</sys_created_on>
-            <sys_id>6b1c30520fc2db00dc325d78a1050e46</sys_id>
+            <sys_created_on>2018-05-24 16:12:24</sys_created_on>
+            <sys_id>4523009d37de97409e89daa543990e2b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>0kyhill</sys_updated_by>
-            <sys_updated_on>2018-05-15 12:39:33</sys_updated_on>
+            <sys_updated_on>2018-05-24 16:12:24</sys_updated_on>
             <text>SIH Responsibilities</text>
             <type display_value="Section Separator">443e806c0fd30000b12e6903cfe01281</type>
         </sys_ui_annotation>
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
             <sys_created_by>0kyhill</sys_created_by>
-            <sys_created_on>2018-05-15 12:39:33</sys_created_on>
-            <sys_id>6f1c30520fc2db00dc325d78a1050e46</sys_id>
+            <sys_created_on>2018-05-24 16:12:24</sys_created_on>
+            <sys_id>4923009d37de97409e89daa543990e2b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>0kyhill</sys_updated_by>
-            <sys_updated_on>2018-05-15 12:39:33</sys_updated_on>
+            <sys_updated_on>2018-05-24 16:12:24</sys_updated_on>
             <text/>
             <type display_value="Text">863e446c0fd30000b12e6903cfe012ce</type>
         </sys_ui_annotation>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>6b1c30520fc2db00dc325d78a1050e46</element>
+            <element>4523009d37de97409e89daa543990e2b</element>
             <position>0</position>
             <sys_created_by>0kyhill</sys_created_by>
-            <sys_created_on>2018-05-15 12:39:33</sys_created_on>
-            <sys_id>231c30520fc2db00dc325d78a1050e47</sys_id>
+            <sys_created_on>2018-05-24 16:12:24</sys_created_on>
+            <sys_id>0d23009d37de97409e89daa543990e2b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Delivery and Assembly" display_value="Delivery and Assembly" name="x_sihs_capital_exp_capital_expenditure" sys_domain="global" view="Default view">129380ca375c5b409e89daa543990e48</sys_ui_section>
             <sys_updated_by>0kyhill</sys_updated_by>
-            <sys_updated_on>2018-05-15 12:39:33</sys_updated_on>
+            <sys_updated_on>2018-05-24 16:12:24</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
@@ -41,13 +41,13 @@
             <element>u_sih_responsible_setup</element>
             <position>1</position>
             <sys_created_by>0kyhill</sys_created_by>
-            <sys_created_on>2018-05-15 12:39:33</sys_created_on>
-            <sys_id>a31c30520fc2db00dc325d78a1050e47</sys_id>
+            <sys_created_on>2018-05-24 16:12:24</sys_created_on>
+            <sys_id>8d23009d37de97409e89daa543990e2b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Delivery and Assembly" display_value="Delivery and Assembly" name="x_sihs_capital_exp_capital_expenditure" sys_domain="global" view="Default view">129380ca375c5b409e89daa543990e48</sys_ui_section>
             <sys_updated_by>0kyhill</sys_updated_by>
-            <sys_updated_on>2018-05-15 12:39:33</sys_updated_on>
+            <sys_updated_on>2018-05-24 16:12:24</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -55,13 +55,13 @@
             <element>u_sihsetup_responparty</element>
             <position>2</position>
             <sys_created_by>0kyhill</sys_created_by>
-            <sys_created_on>2018-05-15 12:39:33</sys_created_on>
-            <sys_id>271c30520fc2db00dc325d78a1050e47</sys_id>
+            <sys_created_on>2018-05-24 16:12:24</sys_created_on>
+            <sys_id>0123009d37de97409e89daa543990e2c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Delivery and Assembly" display_value="Delivery and Assembly" name="x_sihs_capital_exp_capital_expenditure" sys_domain="global" view="Default view">129380ca375c5b409e89daa543990e48</sys_ui_section>
             <sys_updated_by>0kyhill</sys_updated_by>
-            <sys_updated_on>2018-05-15 12:39:33</sys_updated_on>
+            <sys_updated_on>2018-05-24 16:12:24</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -69,27 +69,27 @@
             <element>.split</element>
             <position>3</position>
             <sys_created_by>0kyhill</sys_created_by>
-            <sys_created_on>2018-05-15 12:39:33</sys_created_on>
-            <sys_id>a71c30520fc2db00dc325d78a1050e47</sys_id>
+            <sys_created_on>2018-05-24 16:12:24</sys_created_on>
+            <sys_id>8123009d37de97409e89daa543990e2c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Delivery and Assembly" display_value="Delivery and Assembly" name="x_sihs_capital_exp_capital_expenditure" sys_domain="global" view="Default view">129380ca375c5b409e89daa543990e48</sys_ui_section>
             <sys_updated_by>0kyhill</sys_updated_by>
-            <sys_updated_on>2018-05-15 12:39:33</sys_updated_on>
+            <sys_updated_on>2018-05-24 16:12:24</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>6f1c30520fc2db00dc325d78a1050e46</element>
+            <element>4923009d37de97409e89daa543990e2b</element>
             <position>4</position>
             <sys_created_by>0kyhill</sys_created_by>
-            <sys_created_on>2018-05-15 12:39:33</sys_created_on>
-            <sys_id>2b1c30520fc2db00dc325d78a1050e47</sys_id>
+            <sys_created_on>2018-05-24 16:12:24</sys_created_on>
+            <sys_id>0523009d37de97409e89daa543990e2c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Delivery and Assembly" display_value="Delivery and Assembly" name="x_sihs_capital_exp_capital_expenditure" sys_domain="global" view="Default view">129380ca375c5b409e89daa543990e48</sys_ui_section>
             <sys_updated_by>0kyhill</sys_updated_by>
-            <sys_updated_on>2018-05-15 12:39:33</sys_updated_on>
+            <sys_updated_on>2018-05-24 16:12:24</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>

@@ -4,11 +4,11 @@
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
             <sys_created_by>0kyhill</sys_created_by>
-            <sys_created_on>2018-05-15 12:39:32</sys_created_on>
-            <sys_id>471c30520fc2db00dc325d78a1050e18</sys_id>
+            <sys_created_on>2018-05-24 16:12:23</sys_created_on>
+            <sys_id>7c23cc5d37de97409e89daa543990efc</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>0kyhill</sys_updated_by>
-            <sys_updated_on>2018-05-15 12:39:32</sys_updated_on>
+            <sys_updated_on>2018-05-24 16:12:23</sys_updated_on>
             <text/>
             <type display_value="Text">863e446c0fd30000b12e6903cfe012ce</type>
         </sys_ui_annotation>
@@ -16,195 +16,209 @@
             <element>u_req_details_facility</element>
             <position>0</position>
             <sys_created_by>0kyhill</sys_created_by>
-            <sys_created_on>2018-05-15 12:39:32</sys_created_on>
-            <sys_id>0b1c30520fc2db00dc325d78a1050e18</sys_id>
+            <sys_created_on>2018-05-24 16:12:23</sys_created_on>
+            <sys_id>3023cc5d37de97409e89daa543990efd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Request Details" display_value="Request Details" name="x_sihs_capital_exp_capital_expenditure" sys_domain="global" view="Default view">0d771fff0f185700dc325d78a1050e9f</sys_ui_section>
             <sys_updated_by>0kyhill</sys_updated_by>
-            <sys_updated_on>2018-05-15 12:39:32</sys_updated_on>
+            <sys_updated_on>2018-05-24 16:12:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_dept_number</element>
+            <position>1</position>
+            <sys_created_by>0kyhill</sys_created_by>
+            <sys_created_on>2018-05-24 16:12:23</sys_created_on>
+            <sys_id>b023cc5d37de97409e89daa543990efd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Request Details" display_value="Request Details" name="x_sihs_capital_exp_capital_expenditure" sys_domain="global" view="Default view">0d771fff0f185700dc325d78a1050e9f</sys_ui_section>
+            <sys_updated_by>0kyhill</sys_updated_by>
+            <sys_updated_on>2018-05-24 16:12:23</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_capex_req_number</element>
-            <position>1</position>
+            <position>2</position>
             <sys_created_by>0kyhill</sys_created_by>
-            <sys_created_on>2018-05-15 12:39:32</sys_created_on>
-            <sys_id>8b1c30520fc2db00dc325d78a1050e18</sys_id>
+            <sys_created_on>2018-05-24 16:12:23</sys_created_on>
+            <sys_id>3423cc5d37de97409e89daa543990efd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Request Details" display_value="Request Details" name="x_sihs_capital_exp_capital_expenditure" sys_domain="global" view="Default view">0d771fff0f185700dc325d78a1050e9f</sys_ui_section>
             <sys_updated_by>0kyhill</sys_updated_by>
-            <sys_updated_on>2018-05-15 12:39:32</sys_updated_on>
+            <sys_updated_on>2018-05-24 16:12:23</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_capex_po_number</element>
-            <position>2</position>
+            <position>3</position>
             <sys_created_by>0kyhill</sys_created_by>
-            <sys_created_on>2018-05-15 12:39:32</sys_created_on>
-            <sys_id>0f1c30520fc2db00dc325d78a1050e18</sys_id>
+            <sys_created_on>2018-05-24 16:12:23</sys_created_on>
+            <sys_id>b423cc5d37de97409e89daa543990efd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Request Details" display_value="Request Details" name="x_sihs_capital_exp_capital_expenditure" sys_domain="global" view="Default view">0d771fff0f185700dc325d78a1050e9f</sys_ui_section>
             <sys_updated_by>0kyhill</sys_updated_by>
-            <sys_updated_on>2018-05-15 12:39:32</sys_updated_on>
+            <sys_updated_on>2018-05-24 16:12:23</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_capex_activity_number</element>
-            <position>3</position>
+            <position>4</position>
             <sys_created_by>0kyhill</sys_created_by>
-            <sys_created_on>2018-05-15 12:39:32</sys_created_on>
-            <sys_id>8f1c30520fc2db00dc325d78a1050e18</sys_id>
+            <sys_created_on>2018-05-24 16:12:23</sys_created_on>
+            <sys_id>3823cc5d37de97409e89daa543990efd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Request Details" display_value="Request Details" name="x_sihs_capital_exp_capital_expenditure" sys_domain="global" view="Default view">0d771fff0f185700dc325d78a1050e9f</sys_ui_section>
             <sys_updated_by>0kyhill</sys_updated_by>
-            <sys_updated_on>2018-05-15 12:39:32</sys_updated_on>
+            <sys_updated_on>2018-05-24 16:12:23</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_stratajazz_request</element>
-            <position>4</position>
+            <position>5</position>
             <sys_created_by>0kyhill</sys_created_by>
-            <sys_created_on>2018-05-15 12:39:32</sys_created_on>
-            <sys_id>031c30520fc2db00dc325d78a1050e19</sys_id>
+            <sys_created_on>2018-05-24 16:12:23</sys_created_on>
+            <sys_id>b823cc5d37de97409e89daa543990efd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Request Details" display_value="Request Details" name="x_sihs_capital_exp_capital_expenditure" sys_domain="global" view="Default view">0d771fff0f185700dc325d78a1050e9f</sys_ui_section>
             <sys_updated_by>0kyhill</sys_updated_by>
-            <sys_updated_on>2018-05-15 12:39:32</sys_updated_on>
+            <sys_updated_on>2018-05-24 16:12:23</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_stratajazz_id</element>
-            <position>5</position>
+            <position>6</position>
             <sys_created_by>0kyhill</sys_created_by>
-            <sys_created_on>2018-05-15 12:39:32</sys_created_on>
-            <sys_id>831c30520fc2db00dc325d78a1050e19</sys_id>
+            <sys_created_on>2018-05-24 16:12:23</sys_created_on>
+            <sys_id>3c23cc5d37de97409e89daa543990efd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Request Details" display_value="Request Details" name="x_sihs_capital_exp_capital_expenditure" sys_domain="global" view="Default view">0d771fff0f185700dc325d78a1050e9f</sys_ui_section>
             <sys_updated_by>0kyhill</sys_updated_by>
-            <sys_updated_on>2018-05-15 12:39:32</sys_updated_on>
+            <sys_updated_on>2018-05-24 16:12:23</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_capex_funding_source</element>
-            <position>6</position>
+            <position>7</position>
             <sys_created_by>0kyhill</sys_created_by>
-            <sys_created_on>2018-05-15 12:39:32</sys_created_on>
-            <sys_id>071c30520fc2db00dc325d78a1050e19</sys_id>
+            <sys_created_on>2018-05-24 16:12:23</sys_created_on>
+            <sys_id>bc23cc5d37de97409e89daa543990efd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Request Details" display_value="Request Details" name="x_sihs_capital_exp_capital_expenditure" sys_domain="global" view="Default view">0d771fff0f185700dc325d78a1050e9f</sys_ui_section>
             <sys_updated_by>0kyhill</sys_updated_by>
-            <sys_updated_on>2018-05-15 12:39:32</sys_updated_on>
+            <sys_updated_on>2018-05-24 16:12:23</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_capex_equip_replacement</element>
-            <position>7</position>
+            <position>8</position>
             <sys_created_by>0kyhill</sys_created_by>
-            <sys_created_on>2018-05-15 12:39:32</sys_created_on>
-            <sys_id>871c30520fc2db00dc325d78a1050e19</sys_id>
+            <sys_created_on>2018-05-24 16:12:23</sys_created_on>
+            <sys_id>3023cc5d37de97409e89daa543990efe</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Request Details" display_value="Request Details" name="x_sihs_capital_exp_capital_expenditure" sys_domain="global" view="Default view">0d771fff0f185700dc325d78a1050e9f</sys_ui_section>
             <sys_updated_by>0kyhill</sys_updated_by>
-            <sys_updated_on>2018-05-15 12:39:32</sys_updated_on>
+            <sys_updated_on>2018-05-24 16:12:23</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_capex_ctrl_number</element>
-            <position>8</position>
+            <position>9</position>
             <sys_created_by>0kyhill</sys_created_by>
-            <sys_created_on>2018-05-15 12:39:32</sys_created_on>
-            <sys_id>0b1c30520fc2db00dc325d78a1050e19</sys_id>
+            <sys_created_on>2018-05-24 16:12:23</sys_created_on>
+            <sys_id>b023cc5d37de97409e89daa543990efe</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Request Details" display_value="Request Details" name="x_sihs_capital_exp_capital_expenditure" sys_domain="global" view="Default view">0d771fff0f185700dc325d78a1050e9f</sys_ui_section>
             <sys_updated_by>0kyhill</sys_updated_by>
-            <sys_updated_on>2018-05-15 12:39:32</sys_updated_on>
+            <sys_updated_on>2018-05-24 16:12:23</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_equip_replace_assetid</element>
-            <position>9</position>
+            <position>10</position>
             <sys_created_by>0kyhill</sys_created_by>
-            <sys_created_on>2018-05-15 12:39:32</sys_created_on>
-            <sys_id>8b1c30520fc2db00dc325d78a1050e19</sys_id>
+            <sys_created_on>2018-05-24 16:12:23</sys_created_on>
+            <sys_id>3423cc5d37de97409e89daa543990efe</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Request Details" display_value="Request Details" name="x_sihs_capital_exp_capital_expenditure" sys_domain="global" view="Default view">0d771fff0f185700dc325d78a1050e9f</sys_ui_section>
             <sys_updated_by>0kyhill</sys_updated_by>
-            <sys_updated_on>2018-05-15 12:39:32</sys_updated_on>
+            <sys_updated_on>2018-05-24 16:12:23</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_equip_replace_serialnum</element>
-            <position>10</position>
+            <position>11</position>
             <sys_created_by>0kyhill</sys_created_by>
-            <sys_created_on>2018-05-15 12:39:32</sys_created_on>
-            <sys_id>0f1c30520fc2db00dc325d78a1050e19</sys_id>
+            <sys_created_on>2018-05-24 16:12:23</sys_created_on>
+            <sys_id>b423cc5d37de97409e89daa543990efe</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Request Details" display_value="Request Details" name="x_sihs_capital_exp_capital_expenditure" sys_domain="global" view="Default view">0d771fff0f185700dc325d78a1050e9f</sys_ui_section>
             <sys_updated_by>0kyhill</sys_updated_by>
-            <sys_updated_on>2018-05-15 12:39:32</sys_updated_on>
+            <sys_updated_on>2018-05-24 16:12:23</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_asset_deletion_completed</element>
-            <position>11</position>
+            <position>12</position>
             <sys_created_by>0kyhill</sys_created_by>
-            <sys_created_on>2018-05-15 12:39:32</sys_created_on>
-            <sys_id>8f1c30520fc2db00dc325d78a1050e19</sys_id>
+            <sys_created_on>2018-05-24 16:12:23</sys_created_on>
+            <sys_id>3823cc5d37de97409e89daa543990efe</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Request Details" display_value="Request Details" name="x_sihs_capital_exp_capital_expenditure" sys_domain="global" view="Default view">0d771fff0f185700dc325d78a1050e9f</sys_ui_section>
             <sys_updated_by>0kyhill</sys_updated_by>
-            <sys_updated_on>2018-05-15 12:39:32</sys_updated_on>
+            <sys_updated_on>2018-05-24 16:12:23</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>12</position>
+            <position>13</position>
             <sys_created_by>0kyhill</sys_created_by>
-            <sys_created_on>2018-05-15 12:39:32</sys_created_on>
-            <sys_id>031c30520fc2db00dc325d78a1050e1a</sys_id>
+            <sys_created_on>2018-05-24 16:12:23</sys_created_on>
+            <sys_id>b823cc5d37de97409e89daa543990efe</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Request Details" display_value="Request Details" name="x_sihs_capital_exp_capital_expenditure" sys_domain="global" view="Default view">0d771fff0f185700dc325d78a1050e9f</sys_ui_section>
             <sys_updated_by>0kyhill</sys_updated_by>
-            <sys_updated_on>2018-05-15 12:39:32</sys_updated_on>
+            <sys_updated_on>2018-05-24 16:12:23</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>471c30520fc2db00dc325d78a1050e18</element>
-            <position>13</position>
+            <element>7c23cc5d37de97409e89daa543990efc</element>
+            <position>14</position>
             <sys_created_by>0kyhill</sys_created_by>
-            <sys_created_on>2018-05-15 12:39:32</sys_created_on>
-            <sys_id>831c30520fc2db00dc325d78a1050e1a</sys_id>
+            <sys_created_on>2018-05-24 16:12:23</sys_created_on>
+            <sys_id>3c23cc5d37de97409e89daa543990efe</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Request Details" display_value="Request Details" name="x_sihs_capital_exp_capital_expenditure" sys_domain="global" view="Default view">0d771fff0f185700dc325d78a1050e9f</sys_ui_section>
             <sys_updated_by>0kyhill</sys_updated_by>
-            <sys_updated_on>2018-05-15 12:39:32</sys_updated_on>
+            <sys_updated_on>2018-05-24 16:12:23</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
