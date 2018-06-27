@@ -3,59 +3,73 @@
     <sys_ui_related sys_domain="global" table="x_sihs_capital_exp_capital_expenditure" version="2" view="">
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="Capital Expenditure - Default view" name="x_sihs_capital_exp_capital_expenditure" related_list="NULL" sys_domain="global" view="Default view">499cf9370f2dd740dc325d78a1050e7d</list_id>
+            <list_id display_value="Capital Expenditure - Default view" name="x_sihs_capital_exp_capital_expenditure" related_list="NULL" sys_domain="global" view="Default view">41724d5f372297009e89daa543990e78</list_id>
             <order_by/>
             <position>0</position>
             <related_list>x_sihs_capital_exp_request_line_items.cap_ex_request</related_list>
             <sys_class_name>sys_ui_related_list_entry</sys_class_name>
             <sys_created_by>0kyhill</sys_created_by>
-            <sys_created_on>2018-04-25 12:40:41</sys_created_on>
-            <sys_id>c59cf9370f2dd740dc325d78a1050e7e</sys_id>
+            <sys_created_on>2018-06-12 12:12:34</sys_created_on>
+            <sys_id>01724d5f372297009e89daa543990e79</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>0kyhill</sys_updated_by>
-            <sys_updated_on>2018-04-25 12:40:41</sys_updated_on>
+            <sys_updated_on>2018-06-12 12:12:34</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="Capital Expenditure - Default view" name="x_sihs_capital_exp_capital_expenditure" related_list="NULL" sys_domain="global" view="Default view">499cf9370f2dd740dc325d78a1050e7d</list_id>
+            <list_id display_value="Capital Expenditure - Default view" name="x_sihs_capital_exp_capital_expenditure" related_list="NULL" sys_domain="global" view="Default view">41724d5f372297009e89daa543990e78</list_id>
             <order_by/>
             <position>1</position>
+            <related_list>x_sihs_capital_exp_purchase_orders.cap_ex_request</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>0kyhill</sys_created_by>
+            <sys_created_on>2018-06-12 12:12:34</sys_created_on>
+            <sys_id>49724d5f372297009e89daa543990e79</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>0kyhill</sys_updated_by>
+            <sys_updated_on>2018-06-12 12:12:34</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Capital Expenditure - Default view" name="x_sihs_capital_exp_capital_expenditure" related_list="NULL" sys_domain="global" view="Default view">41724d5f372297009e89daa543990e78</list_id>
+            <order_by/>
+            <position>2</position>
             <related_list>REL:b9edf0ca0a0a0b010035de2d6b579a03</related_list>
             <sys_class_name>sys_ui_related_list_entry</sys_class_name>
             <sys_created_by>0kyhill</sys_created_by>
-            <sys_created_on>2018-04-25 12:40:41</sys_created_on>
-            <sys_id>019cf9370f2dd740dc325d78a1050e7f</sys_id>
+            <sys_created_on>2018-06-12 12:12:34</sys_created_on>
+            <sys_id>4d724d5f372297009e89daa543990e79</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>0kyhill</sys_updated_by>
-            <sys_updated_on>2018-04-25 12:40:41</sys_updated_on>
+            <sys_updated_on>2018-06-12 12:12:34</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="Capital Expenditure - Default view" name="x_sihs_capital_exp_capital_expenditure" related_list="NULL" sys_domain="global" view="Default view">499cf9370f2dd740dc325d78a1050e7d</list_id>
+            <list_id display_value="Capital Expenditure - Default view" name="x_sihs_capital_exp_capital_expenditure" related_list="NULL" sys_domain="global" view="Default view">41724d5f372297009e89daa543990e78</list_id>
             <order_by/>
-            <position>2</position>
+            <position>3</position>
             <related_list>sysapproval_approver.sysapproval</related_list>
             <sys_class_name>sys_ui_related_list_entry</sys_class_name>
             <sys_created_by>0kyhill</sys_created_by>
-            <sys_created_on>2018-04-25 12:40:41</sys_created_on>
-            <sys_id>059cf9370f2dd740dc325d78a1050e7f</sys_id>
+            <sys_created_on>2018-06-12 12:12:34</sys_created_on>
+            <sys_id>41724d5f372297009e89daa543990e7a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>0kyhill</sys_updated_by>
-            <sys_updated_on>2018-04-25 12:40:41</sys_updated_on>
+            <sys_updated_on>2018-06-12 12:12:34</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="Capital Expenditure - Default view" name="x_sihs_capital_exp_capital_expenditure" related_list="NULL" sys_domain="global" view="Default view">499cf9370f2dd740dc325d78a1050e7d</list_id>
+            <list_id display_value="Capital Expenditure - Default view" name="x_sihs_capital_exp_capital_expenditure" related_list="NULL" sys_domain="global" view="Default view">41724d5f372297009e89daa543990e78</list_id>
             <order_by/>
-            <position>3</position>
+            <position>4</position>
             <related_list>sc_task.parent</related_list>
             <sys_class_name>sys_ui_related_list_entry</sys_class_name>
             <sys_created_by>0kyhill</sys_created_by>
-            <sys_created_on>2018-04-25 12:40:41</sys_created_on>
-            <sys_id>099cf9370f2dd740dc325d78a1050e7f</sys_id>
+            <sys_created_on>2018-06-12 12:12:34</sys_created_on>
+            <sys_id>45724d5f372297009e89daa543990e7a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>0kyhill</sys_updated_by>
-            <sys_updated_on>2018-04-25 12:40:41</sys_updated_on>
+            <sys_updated_on>2018-06-12 12:12:34</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list action="INSERT_OR_UPDATE">
             <calculated_name>Capital Expenditure - Default view</calculated_name>
@@ -66,11 +80,11 @@
             <related_list/>
             <sys_class_name>sys_ui_related_list</sys_class_name>
             <sys_created_by>0kyhill</sys_created_by>
-            <sys_created_on>2018-04-25 12:40:41</sys_created_on>
+            <sys_created_on>2018-06-12 12:12:34</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>499cf9370f2dd740dc325d78a1050e7d</sys_id>
+            <sys_id>41724d5f372297009e89daa543990e78</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>Capital Expenditure - Default view</sys_name>
             <sys_package display_value="Capital Expenditure" source="x_sihs_capital_exp">937153a00f909b40dc325d78a1050ede</sys_package>
@@ -79,7 +93,7 @@
             <sys_scope display_value="Capital Expenditure">937153a00f909b40dc325d78a1050ede</sys_scope>
             <sys_update_name>sys_ui_related_x_sihs_capital_exp_capital_expenditure_null</sys_update_name>
             <sys_updated_by>0kyhill</sys_updated_by>
-            <sys_updated_on>2018-04-25 12:40:41</sys_updated_on>
+            <sys_updated_on>2018-06-12 12:12:34</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>

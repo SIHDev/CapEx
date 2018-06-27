@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_process_flow">
+    <sys_process_flow action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_sihs_capital_exp_capital_expenditure">state=11^EQ<item endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="11"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <description/>
+        <label>Cancelled</label>
+        <name>110</name>
+        <order>11</order>
+        <sys_class_name>sys_process_flow</sys_class_name>
+        <sys_created_by>0kyhill</sys_created_by>
+        <sys_created_on>2018-06-25 19:08:45</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>0d4e556f377e53409e89daa543990e22</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>110</sys_name>
+        <sys_package display_value="Capital Expenditure" source="x_sihs_capital_exp">937153a00f909b40dc325d78a1050ede</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Capital Expenditure">937153a00f909b40dc325d78a1050ede</sys_scope>
+        <sys_update_name>sys_process_flow_0d4e556f377e53409e89daa543990e22</sys_update_name>
+        <sys_updated_by>0kyhill</sys_updated_by>
+        <sys_updated_on>2018-06-25 19:08:45</sys_updated_on>
+        <table>x_sihs_capital_exp_capital_expenditure</table>
+    </sys_process_flow>
+</record_update>

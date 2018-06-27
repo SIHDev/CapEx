@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Purchase Orders" max_length="40" name="x_sihs_capital_exp_purchase_orders" type="collection">
+        <element label="Cap Ex Request" max_length="32" name="cap_ex_request" reference="x_sihs_capital_exp_capital_expenditure" type="reference"/>
+        <element label="PO Number" max_length="50" name="po_number" type="string"/>
+        <index name="index">
+            <element name="cap_ex_request"/>
+        </index>
+    </element>
+</database>

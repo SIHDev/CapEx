@@ -1,185 +1,249 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
     <sys_ui_section caption="" section_id="d9586b3f0f585700dc325d78a1050eb5" sys_domain="global" table="x_sihs_capital_exp_request_line_items" version="3" view="">
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>0kyhill</sys_created_by>
+            <sys_created_on>2018-06-11 17:05:14</sys_created_on>
+            <sys_id>eedb744737a657009e89daa543990e18</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>0kyhill</sys_updated_by>
+            <sys_updated_on>2018-06-11 17:05:14</sys_updated_on>
+            <text>Vendor Information</text>
+            <type display_value="Section Separator">443e806c0fd30000b12e6903cfe01281</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>0kyhill</sys_created_by>
+            <sys_created_on>2018-06-11 17:05:14</sys_created_on>
+            <sys_id>e2db744737a657009e89daa543990e19</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>0kyhill</sys_updated_by>
+            <sys_updated_on>2018-06-11 17:05:14</sys_updated_on>
+            <text>Lawson Information</text>
+            <type display_value="Section Separator">443e806c0fd30000b12e6903cfe01281</type>
+        </sys_ui_annotation>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>quantity</element>
+            <element>cap_ex_request</element>
             <position>0</position>
             <sys_created_by>0kyhill</sys_created_by>
-            <sys_created_on>2018-02-22 17:13:00</sys_created_on>
-            <sys_id>9d58a37f0f585700dc325d78a1050ee9</sys_id>
+            <sys_created_on>2018-06-11 17:05:14</sys_created_on>
+            <sys_id>a6db744737a657009e89daa543990e19</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_sihs_capital_exp_request_line_items" sys_domain="global" view="Default view">d9586b3f0f585700dc325d78a1050eb5</sys_ui_section>
             <sys_updated_by>0kyhill</sys_updated_by>
-            <sys_updated_on>2018-02-22 17:13:00</sys_updated_on>
+            <sys_updated_on>2018-06-11 17:05:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>lineitem_cost_category</element>
+            <position>1</position>
+            <sys_created_by>0kyhill</sys_created_by>
+            <sys_created_on>2018-06-11 17:05:14</sys_created_on>
+            <sys_id>2adb744737a657009e89daa543990e19</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sihs_capital_exp_request_line_items" sys_domain="global" view="Default view">d9586b3f0f585700dc325d78a1050eb5</sys_ui_section>
+            <sys_updated_by>0kyhill</sys_updated_by>
+            <sys_updated_on>2018-06-11 17:05:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>quantity</element>
+            <position>2</position>
+            <sys_created_by>0kyhill</sys_created_by>
+            <sys_created_on>2018-06-11 17:05:14</sys_created_on>
+            <sys_id>aadb744737a657009e89daa543990e19</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sihs_capital_exp_request_line_items" sys_domain="global" view="Default view">d9586b3f0f585700dc325d78a1050eb5</sys_ui_section>
+            <sys_updated_by>0kyhill</sys_updated_by>
+            <sys_updated_on>2018-06-11 17:05:14</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>vendor_product_order_number</element>
-            <position>1</position>
+            <position>3</position>
             <sys_created_by>0kyhill</sys_created_by>
-            <sys_created_on>2018-02-22 17:13:00</sys_created_on>
-            <sys_id>1158a37f0f585700dc325d78a1050eea</sys_id>
+            <sys_created_on>2018-06-11 17:05:14</sys_created_on>
+            <sys_id>2edb744737a657009e89daa543990e19</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_sihs_capital_exp_request_line_items" sys_domain="global" view="Default view">d9586b3f0f585700dc325d78a1050eb5</sys_ui_section>
             <sys_updated_by>0kyhill</sys_updated_by>
-            <sys_updated_on>2018-02-22 17:13:00</sys_updated_on>
+            <sys_updated_on>2018-06-11 17:05:14</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>item_description_name</element>
-            <position>2</position>
-            <sys_created_by>0kyhill</sys_created_by>
-            <sys_created_on>2018-02-22 17:13:00</sys_created_on>
-            <sys_id>9158a37f0f585700dc325d78a1050eea</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_sihs_capital_exp_request_line_items" sys_domain="global" view="Default view">d9586b3f0f585700dc325d78a1050eb5</sys_ui_section>
-            <sys_updated_by>0kyhill</sys_updated_by>
-            <sys_updated_on>2018-02-22 17:13:00</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.begin_split</element>
-            <position>3</position>
-            <sys_created_by>0kyhill</sys_created_by>
-            <sys_created_on>2018-02-22 17:13:00</sys_created_on>
-            <sys_id>1558a37f0f585700dc325d78a1050eea</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_sihs_capital_exp_request_line_items" sys_domain="global" view="Default view">d9586b3f0f585700dc325d78a1050eb5</sys_ui_section>
-            <sys_updated_by>0kyhill</sys_updated_by>
-            <sys_updated_on>2018-02-22 17:13:00</sys_updated_on>
-            <sys_user/>
-            <type>.begin_split</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>cap_ex_request</element>
             <position>4</position>
             <sys_created_by>0kyhill</sys_created_by>
-            <sys_created_on>2018-02-22 17:13:00</sys_created_on>
-            <sys_id>9558a37f0f585700dc325d78a1050eea</sys_id>
+            <sys_created_on>2018-06-11 17:05:14</sys_created_on>
+            <sys_id>aedb744737a657009e89daa543990e19</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_sihs_capital_exp_request_line_items" sys_domain="global" view="Default view">d9586b3f0f585700dc325d78a1050eb5</sys_ui_section>
             <sys_updated_by>0kyhill</sys_updated_by>
-            <sys_updated_on>2018-02-22 17:13:00</sys_updated_on>
+            <sys_updated_on>2018-06-11 17:05:14</sys_updated_on>
             <sys_user/>
             <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.split</element>
-            <position>5</position>
-            <sys_created_by>0kyhill</sys_created_by>
-            <sys_created_on>2018-02-22 17:13:00</sys_created_on>
-            <sys_id>1958a37f0f585700dc325d78a1050eea</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_sihs_capital_exp_request_line_items" sys_domain="global" view="Default view">d9586b3f0f585700dc325d78a1050eb5</sys_ui_section>
-            <sys_updated_by>0kyhill</sys_updated_by>
-            <sys_updated_on>2018-02-22 17:13:00</sys_updated_on>
-            <sys_user/>
-            <type>.split</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>lineitem_cost_category</element>
-            <position>6</position>
-            <sys_created_by>0kyhill</sys_created_by>
-            <sys_created_on>2018-02-22 17:13:00</sys_created_on>
-            <sys_id>9958a37f0f585700dc325d78a1050eea</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_sihs_capital_exp_request_line_items" sys_domain="global" view="Default view">d9586b3f0f585700dc325d78a1050eb5</sys_ui_section>
-            <sys_updated_by>0kyhill</sys_updated_by>
-            <sys_updated_on>2018-02-22 17:13:00</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.end_split</element>
-            <position>7</position>
-            <sys_created_by>0kyhill</sys_created_by>
-            <sys_created_on>2018-02-22 17:13:00</sys_created_on>
-            <sys_id>1d58a37f0f585700dc325d78a1050eea</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_sihs_capital_exp_request_line_items" sys_domain="global" view="Default view">d9586b3f0f585700dc325d78a1050eb5</sys_ui_section>
-            <sys_updated_by>0kyhill</sys_updated_by>
-            <sys_updated_on>2018-02-22 17:13:00</sys_updated_on>
-            <sys_user/>
-            <type>.end_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>unit_cost</element>
-            <position>8</position>
+            <position>5</position>
             <sys_created_by>0kyhill</sys_created_by>
-            <sys_created_on>2018-02-22 18:13:55</sys_created_on>
-            <sys_id>fd467bb70f985700dc325d78a1050ecf</sys_id>
+            <sys_created_on>2018-06-11 17:05:14</sys_created_on>
+            <sys_id>22db744737a657009e89daa543990e1a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_sihs_capital_exp_request_line_items" sys_domain="global" view="Default view">d9586b3f0f585700dc325d78a1050eb5</sys_ui_section>
             <sys_updated_by>0kyhill</sys_updated_by>
-            <sys_updated_on>2018-02-22 18:13:55</sys_updated_on>
+            <sys_updated_on>2018-06-11 17:05:14</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>extended_cost</element>
-            <position>9</position>
+            <position>6</position>
             <sys_created_by>0kyhill</sys_created_by>
-            <sys_created_on>2018-02-22 18:14:48</sys_created_on>
-            <sys_id>b6767fb70f985700dc325d78a1050e68</sys_id>
+            <sys_created_on>2018-06-11 17:05:14</sys_created_on>
+            <sys_id>a2db744737a657009e89daa543990e1a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_sihs_capital_exp_request_line_items" sys_domain="global" view="Default view">d9586b3f0f585700dc325d78a1050eb5</sys_ui_section>
             <sys_updated_by>0kyhill</sys_updated_by>
-            <sys_updated_on>2018-02-22 18:14:48</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>contact_information</element>
-            <position>10</position>
-            <sys_created_by>0kyhill</sys_created_by>
-            <sys_created_on>2018-02-22 18:16:31</sys_created_on>
-            <sys_id>fbd6b3f70f985700dc325d78a1050e40</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_sihs_capital_exp_request_line_items" sys_domain="global" view="Default view">d9586b3f0f585700dc325d78a1050eb5</sys_ui_section>
-            <sys_updated_by>0kyhill</sys_updated_by>
-            <sys_updated_on>2018-02-22 18:16:31</sys_updated_on>
+            <sys_updated_on>2018-06-11 17:05:14</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>attachment</element>
-            <position>11</position>
+            <position>7</position>
             <sys_created_by>0kyhill</sys_created_by>
-            <sys_created_on>2018-02-26 18:52:27</sys_created_on>
-            <sys_id>a5756c913760d7009e89daa543990e68</sys_id>
+            <sys_created_on>2018-06-11 17:05:14</sys_created_on>
+            <sys_id>26db744737a657009e89daa543990e1a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_sihs_capital_exp_request_line_items" sys_domain="global" view="Default view">d9586b3f0f585700dc325d78a1050eb5</sys_ui_section>
             <sys_updated_by>0kyhill</sys_updated_by>
-            <sys_updated_on>2018-02-26 18:52:27</sys_updated_on>
+            <sys_updated_on>2018-06-11 17:05:14</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>sales_representative</element>
-            <position>12</position>
+            <element>eedb744737a657009e89daa543990e18</element>
+            <position>8</position>
             <sys_created_by>0kyhill</sys_created_by>
-            <sys_created_on>2018-03-02 13:26:52</sys_created_on>
-            <sys_id>0f4104a237289b009e89daa543990e5c</sys_id>
+            <sys_created_on>2018-06-11 17:05:14</sys_created_on>
+            <sys_id>a6db744737a657009e89daa543990e1a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_sihs_capital_exp_request_line_items" sys_domain="global" view="Default view">d9586b3f0f585700dc325d78a1050eb5</sys_ui_section>
             <sys_updated_by>0kyhill</sys_updated_by>
-            <sys_updated_on>2018-03-02 13:26:52</sys_updated_on>
+            <sys_updated_on>2018-06-11 17:05:14</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_contact_name</element>
+            <position>9</position>
+            <sys_created_by>0kyhill</sys_created_by>
+            <sys_created_on>2018-06-11 17:05:14</sys_created_on>
+            <sys_id>2adb744737a657009e89daa543990e1a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sihs_capital_exp_request_line_items" sys_domain="global" view="Default view">d9586b3f0f585700dc325d78a1050eb5</sys_ui_section>
+            <sys_updated_by>0kyhill</sys_updated_by>
+            <sys_updated_on>2018-06-11 17:05:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_contact_phone_num</element>
+            <position>10</position>
+            <sys_created_by>0kyhill</sys_created_by>
+            <sys_created_on>2018-06-11 17:05:14</sys_created_on>
+            <sys_id>aadb744737a657009e89daa543990e1a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sihs_capital_exp_request_line_items" sys_domain="global" view="Default view">d9586b3f0f585700dc325d78a1050eb5</sys_ui_section>
+            <sys_updated_by>0kyhill</sys_updated_by>
+            <sys_updated_on>2018-06-11 17:05:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_contact_email</element>
+            <position>11</position>
+            <sys_created_by>0kyhill</sys_created_by>
+            <sys_created_on>2018-06-11 17:05:14</sys_created_on>
+            <sys_id>2edb744737a657009e89daa543990e1a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sihs_capital_exp_request_line_items" sys_domain="global" view="Default view">d9586b3f0f585700dc325d78a1050eb5</sys_ui_section>
+            <sys_updated_by>0kyhill</sys_updated_by>
+            <sys_updated_on>2018-06-11 17:05:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>e2db744737a657009e89daa543990e19</element>
+            <position>12</position>
+            <sys_created_by>0kyhill</sys_created_by>
+            <sys_created_on>2018-06-11 17:05:14</sys_created_on>
+            <sys_id>aedb744737a657009e89daa543990e1a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sihs_capital_exp_request_line_items" sys_domain="global" view="Default view">d9586b3f0f585700dc325d78a1050eb5</sys_ui_section>
+            <sys_updated_by>0kyhill</sys_updated_by>
+            <sys_updated_on>2018-06-11 17:05:14</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>lawson_vendor_name</element>
+            <position>13</position>
+            <sys_created_by>0kyhill</sys_created_by>
+            <sys_created_on>2018-06-11 17:05:14</sys_created_on>
+            <sys_id>22db744737a657009e89daa543990e1b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sihs_capital_exp_request_line_items" sys_domain="global" view="Default view">d9586b3f0f585700dc325d78a1050eb5</sys_ui_section>
+            <sys_updated_by>0kyhill</sys_updated_by>
+            <sys_updated_on>2018-06-11 17:05:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>lawson_vendor_number</element>
+            <position>14</position>
+            <sys_created_by>0kyhill</sys_created_by>
+            <sys_created_on>2018-06-11 17:05:14</sys_created_on>
+            <sys_id>a2db744737a657009e89daa543990e1b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sihs_capital_exp_request_line_items" sys_domain="global" view="Default view">d9586b3f0f585700dc325d78a1050eb5</sys_ui_section>
+            <sys_updated_by>0kyhill</sys_updated_by>
+            <sys_updated_on>2018-06-11 17:05:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>lawson_purchase_location</element>
+            <position>15</position>
+            <sys_created_by>0kyhill</sys_created_by>
+            <sys_created_on>2018-06-11 17:05:14</sys_created_on>
+            <sys_id>26db744737a657009e89daa543990e1b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sihs_capital_exp_request_line_items" sys_domain="global" view="Default view">d9586b3f0f585700dc325d78a1050eb5</sys_ui_section>
+            <sys_updated_by>0kyhill</sys_updated_by>
+            <sys_updated_on>2018-06-11 17:05:14</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
