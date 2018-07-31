@@ -103,11 +103,11 @@
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>0kyhill</sys_created_by>
-            <sys_created_on>2018-05-17 12:13:33</sys_created_on>
+            <sys_created_on>2018-07-12 12:37:45</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>4a59c336378653409e89daa543990efb</sys_id>
+            <sys_id>fee723340f5bdf40dc325d78a1050ebe</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name/>
             <sys_package/>
@@ -116,7 +116,7 @@
             <sys_scope display_value="Capital Expenditure">937153a00f909b40dc325d78a1050ede</sys_scope>
             <sys_update_name/>
             <sys_updated_by>0kyhill</sys_updated_by>
-            <sys_updated_on>2018-05-17 12:13:33</sys_updated_on>
+            <sys_updated_on>2018-07-12 12:37:45</sys_updated_on>
             <sys_user display_value="Kyle Hill Admin">09d6c3ea3753c200c2b18ff1b3990ea4</sys_user>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>

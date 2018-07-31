@@ -6,7 +6,7 @@
         <assessment/>
         <content_page/>
         <device_type/>
-        <filter table="sc_task">state!=3^active=true^assigned_to=javascript:getMyAssignments()^EQ<item endquery="false" field="state" goto="false" newquery="false" operator="!=" or="false" value="3"/>
+        <filter table="x_sihs_capital_exp_captask">state!=3^active=true^assigned_to=javascript:getMyAssignments()^EQ<item endquery="false" field="state" goto="false" newquery="false" operator="!=" or="false" value="3"/>
             <item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
             <item endquery="false" field="assigned_to" goto="false" newquery="false" operator="=" or="false" value="javascript:getMyAssignments()"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
@@ -18,7 +18,7 @@
         <map_page/>
         <mobile_title>My Work</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
-        <name>sc_task</name>
+        <name>x_sihs_capital_exp_captask</name>
         <order/>
         <override_menu_roles>false</override_menu_roles>
         <query/>
@@ -33,8 +33,8 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>f7a3d4fc37061f009e89daa543990ee6</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>sc_task</sys_name>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>My Work</sys_name>
         <sys_overrides/>
         <sys_package display_value="Capital Expenditure" source="x_sihs_capital_exp">937153a00f909b40dc325d78a1050ede</sys_package>
         <sys_policy/>
@@ -42,7 +42,7 @@
         <sys_scope display_value="Capital Expenditure">937153a00f909b40dc325d78a1050ede</sys_scope>
         <sys_update_name>sys_app_module_f7a3d4fc37061f009e89daa543990ee6</sys_update_name>
         <sys_updated_by>0kyhill</sys_updated_by>
-        <sys_updated_on>2018-05-10 20:05:04</sys_updated_on>
+        <sys_updated_on>2018-07-31 20:21:15</sys_updated_on>
         <timeline_page/>
         <title>My Work</title>
         <uncancelable>false</uncancelable>

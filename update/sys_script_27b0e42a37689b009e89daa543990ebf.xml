@@ -82,7 +82,8 @@ var gr = new GlideRecord('x_sihs_capital_exp_request_line_items');
 			//----- LINE ITEM
 			else if (gr.lineitem_cost_category == lineItemCategory)
 			{
-				installationCost += currentTotal;
+				lineItemTotal += currentTotal;
+				//installationCost += currentTotal;
 				//gs.info("INSTALLATION: " + lineItemTotal);
 			}
 		
@@ -107,6 +108,7 @@ var gr2 = new GlideRecord('x_sihs_capital_exp_capital_expenditure');
 	{
 		gr2.u_total_request = total;
 		
+		gr2.u_line_item_cost = lineItemTotal;
 		gr2.u_construction_estimate = constructionTotal; // need to check if there was a construction estimate
 		gr2.u_installation_cost = installationCost;
 		gr2.u_shipping_handling = shippingTotal;
@@ -126,7 +128,7 @@ var gr2 = new GlideRecord('x_sihs_capital_exp_capital_expenditure');
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>27b0e42a37689b009e89daa543990ebf</sys_id>
-        <sys_mod_count>19</sys_mod_count>
+        <sys_mod_count>20</sys_mod_count>
         <sys_name>CapEx - Request Line Items</sys_name>
         <sys_overrides/>
         <sys_package display_value="Capital Expenditure" source="x_sihs_capital_exp">937153a00f909b40dc325d78a1050ede</sys_package>
@@ -135,7 +137,7 @@ var gr2 = new GlideRecord('x_sihs_capital_exp_capital_expenditure');
         <sys_scope display_value="Capital Expenditure">937153a00f909b40dc325d78a1050ede</sys_scope>
         <sys_update_name>sys_script_27b0e42a37689b009e89daa543990ebf</sys_update_name>
         <sys_updated_by>0kyhill</sys_updated_by>
-        <sys_updated_on>2018-04-26 20:03:00</sys_updated_on>
+        <sys_updated_on>2018-07-05 17:47:33</sys_updated_on>
         <template/>
         <when>after</when>
     </sys_script>

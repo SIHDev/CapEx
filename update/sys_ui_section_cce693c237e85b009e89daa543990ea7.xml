@@ -4,11 +4,11 @@
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
             <sys_created_by>0kyhill</sys_created_by>
-            <sys_created_on>2018-06-27 11:20:48</sys_created_on>
-            <sys_id>8d760e843707d3409e89daa543990e86</sys_id>
+            <sys_created_on>2018-07-05 17:48:34</sys_created_on>
+            <sys_id>2beb2cfa0f4b5b40dc325d78a1050ed9</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>0kyhill</sys_updated_by>
-            <sys_updated_on>2018-06-27 11:20:48</sys_updated_on>
+            <sys_updated_on>2018-07-05 17:48:34</sys_updated_on>
             <text/>
             <type display_value="Text">863e446c0fd30000b12e6903cfe012ce</type>
         </sys_ui_annotation>
@@ -16,13 +16,13 @@
             <element>u_review_clinical_engineering</element>
             <position>0</position>
             <sys_created_by>0kyhill</sys_created_by>
-            <sys_created_on>2018-06-27 11:20:48</sys_created_on>
-            <sys_id>41760e843707d3409e89daa543990e87</sys_id>
+            <sys_created_on>2018-07-05 17:48:34</sys_created_on>
+            <sys_id>ebeb2cfa0f4b5b40dc325d78a1050ed9</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Review" display_value="Review" name="x_sihs_capital_exp_capital_expenditure" sys_domain="global" view="Default view">cce693c237e85b009e89daa543990ea7</sys_ui_section>
             <sys_updated_by>0kyhill</sys_updated_by>
-            <sys_updated_on>2018-06-27 11:20:48</sys_updated_on>
+            <sys_updated_on>2018-07-05 17:48:34</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -30,13 +30,13 @@
             <element>u_review_facility_engineering</element>
             <position>1</position>
             <sys_created_by>0kyhill</sys_created_by>
-            <sys_created_on>2018-06-27 11:20:48</sys_created_on>
-            <sys_id>c1760e843707d3409e89daa543990e87</sys_id>
+            <sys_created_on>2018-07-05 17:48:34</sys_created_on>
+            <sys_id>6feb2cfa0f4b5b40dc325d78a1050ed9</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Review" display_value="Review" name="x_sihs_capital_exp_capital_expenditure" sys_domain="global" view="Default view">cce693c237e85b009e89daa543990ea7</sys_ui_section>
             <sys_updated_by>0kyhill</sys_updated_by>
-            <sys_updated_on>2018-06-27 11:20:48</sys_updated_on>
+            <sys_updated_on>2018-07-05 17:48:34</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -44,13 +44,13 @@
             <element>u_review_information_technology</element>
             <position>2</position>
             <sys_created_by>0kyhill</sys_created_by>
-            <sys_created_on>2018-06-27 11:20:48</sys_created_on>
-            <sys_id>45760e843707d3409e89daa543990e87</sys_id>
+            <sys_created_on>2018-07-05 17:48:34</sys_created_on>
+            <sys_id>efeb2cfa0f4b5b40dc325d78a1050ed9</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Review" display_value="Review" name="x_sihs_capital_exp_capital_expenditure" sys_domain="global" view="Default view">cce693c237e85b009e89daa543990ea7</sys_ui_section>
             <sys_updated_by>0kyhill</sys_updated_by>
-            <sys_updated_on>2018-06-27 11:20:48</sys_updated_on>
+            <sys_updated_on>2018-07-05 17:48:34</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -58,27 +58,27 @@
             <element>.split</element>
             <position>3</position>
             <sys_created_by>0kyhill</sys_created_by>
-            <sys_created_on>2018-06-27 11:20:48</sys_created_on>
-            <sys_id>c5760e843707d3409e89daa543990e87</sys_id>
+            <sys_created_on>2018-07-05 17:48:34</sys_created_on>
+            <sys_id>63eb2cfa0f4b5b40dc325d78a1050eda</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Review" display_value="Review" name="x_sihs_capital_exp_capital_expenditure" sys_domain="global" view="Default view">cce693c237e85b009e89daa543990ea7</sys_ui_section>
             <sys_updated_by>0kyhill</sys_updated_by>
-            <sys_updated_on>2018-06-27 11:20:48</sys_updated_on>
+            <sys_updated_on>2018-07-05 17:48:34</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>8d760e843707d3409e89daa543990e86</element>
+            <element>2beb2cfa0f4b5b40dc325d78a1050ed9</element>
             <position>4</position>
             <sys_created_by>0kyhill</sys_created_by>
-            <sys_created_on>2018-06-27 11:20:48</sys_created_on>
-            <sys_id>49760e843707d3409e89daa543990e87</sys_id>
+            <sys_created_on>2018-07-05 17:48:34</sys_created_on>
+            <sys_id>e3eb2cfa0f4b5b40dc325d78a1050eda</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Review" display_value="Review" name="x_sihs_capital_exp_capital_expenditure" sys_domain="global" view="Default view">cce693c237e85b009e89daa543990ea7</sys_ui_section>
             <sys_updated_by>0kyhill</sys_updated_by>
-            <sys_updated_on>2018-06-27 11:20:48</sys_updated_on>
+            <sys_updated_on>2018-07-05 17:48:34</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
