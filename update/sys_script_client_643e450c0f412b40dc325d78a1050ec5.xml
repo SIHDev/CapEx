@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>attachment</field>
+        <global>true</global>
+        <messages/>
+        <name>Line item session data - onLoad</name>
+        <order/>
+        <script><![CDATA[function onLoad() 
+{
+	//----- CapEx Number
+	var capExNumber = g_user.getClientData('capex_number');
+	var capExNumField = g_form.getValue('cap_ex_request');
+	
+	//----- Contact Name
+	var contactName = g_user.getClientData('capex_contact_name');
+	var contactNameField = g_form.getValue('u_contact_name');
+	
+	//----- Contact Phone Number
+	var contactNumber = g_user.getClientData('capex_contact_num');
+	var contactNumberField = g_form.getValue('u_contact_phone_num');
+   
+	//----- Contact Email
+	var contactEmail = g_user.getClientData('capex_contact_email');
+	var contactEmailField = g_form.getValue('u_contact_email');
+	
+	//----- Vendor Name
+	var vendorName = g_user.getClientData('capex_vendor_name');
+	var vendorNameField = g_form.getValue('lawson_vendor_name');
+	
+	//----- Vendor Quote
+	var vendorQuote = g_user.getClientData('capex_vendor_quote');
+	var vendorQuoteField = g_form.getValue('u_vendor_quote');
+	
+	//----- Vendor Number
+	var vendorNumber = g_user.getClientData('capex_lawven_num');
+	var vendorNumberField = g_form.getValue('lawson_vendor_number');
+	
+	//----- Purchase Location
+	var purchaseLocation = g_user.getClientData('capex_lawson_purloc');
+	var purchaseLocationField = g_form.getValue('lawson_purchase_location');
+	
+	
+	var isNewRecord = g_form.isNewRecord();
+	
+	if (isNewRecord)
+	{
+		
+		//----- CapEx Number
+		if (capExNumber && !capExNumField)
+		{
+			g_form.setValue('cap_ex_request', capExNumber);
+		}
+		
+		//----- Contact Name
+		if (contactName && !contactNameField) // IF (desc) client session data has a value & the field does not
+		{
+			g_form.setValue('u_contact_name', contactName);
+		}
+		
+		//----- Contact Phone Number
+		if(contactNumber && !contactNumberField)
+		{
+			g_form.setValue('u_contact_phone_num', contactNumber);
+		}
+		
+		//----- Contact Email
+		if(contactEmail && !contactEmailField)
+		{
+			g_form.setValue('u_contact_email', contactEmail);
+		}
+		
+		//----- Vendor Name
+		if(vendorName && !vendorNameField)
+		{
+			g_form.setValue('lawson_vendor_name', vendorName);
+		}
+		
+		//----- Vendor Quote
+		if(vendorQuote && !vendorQuoteField)
+		{
+			g_form.setValue('u_vendor_quote', vendorQuote);
+		}
+		
+		//----- Vendor Number
+		if(vendorNumber && !vendorNumberField)
+		{
+			g_form.setValue('lawson_vendor_number', vendorNumber);
+		}
+		
+		//----- Purchase Location
+		if(purchaseLocation && !purchaseLocationField)
+		{
+			g_form.setValue('lawson_purchase_location', purchaseLocation);
+		}
+		
+	}
+	
+	
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>0kyhill</sys_created_by>
+        <sys_created_on>2018-10-04 17:41:20</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>643e450c0f412b40dc325d78a1050ec5</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Line item session data - onLoad</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Capital Expenditure" source="x_sihs_capital_exp">937153a00f909b40dc325d78a1050ede</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Capital Expenditure">937153a00f909b40dc325d78a1050ede</sys_scope>
+        <sys_update_name>sys_script_client_643e450c0f412b40dc325d78a1050ec5</sys_update_name>
+        <sys_updated_by>0kyhill</sys_updated_by>
+        <sys_updated_on>2018-10-04 17:57:13</sys_updated_on>
+        <table>x_sihs_capital_exp_request_line_items</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

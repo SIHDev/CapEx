@@ -4,47 +4,47 @@
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
             <sys_created_by>0kyhill</sys_created_by>
-            <sys_created_on>2018-07-05 17:48:33</sys_created_on>
-            <sys_id>13eb2cfa0f4b5b40dc325d78a1050ead</sys_id>
+            <sys_created_on>2018-10-11 11:42:03</sys_created_on>
+            <sys_id>7dd34cde37c9af409e89daa543990e5c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>0kyhill</sys_updated_by>
-            <sys_updated_on>2018-07-05 17:48:33</sys_updated_on>
+            <sys_updated_on>2018-10-11 11:42:03</sys_updated_on>
             <text>Utility Connections</text>
             <type display_value="Section Separator">443e806c0fd30000b12e6903cfe01281</type>
         </sys_ui_annotation>
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
             <sys_created_by>0kyhill</sys_created_by>
-            <sys_created_on>2018-07-05 17:48:33</sys_created_on>
-            <sys_id>17eb2cfa0f4b5b40dc325d78a1050ead</sys_id>
+            <sys_created_on>2018-10-11 11:42:03</sys_created_on>
+            <sys_id>71d34cde37c9af409e89daa543990e5d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>0kyhill</sys_updated_by>
-            <sys_updated_on>2018-07-05 17:48:33</sys_updated_on>
+            <sys_updated_on>2018-10-11 11:42:03</sys_updated_on>
             <text>Additional Space</text>
             <type display_value="Section Separator">443e806c0fd30000b12e6903cfe01281</type>
         </sys_ui_annotation>
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
             <sys_created_by>0kyhill</sys_created_by>
-            <sys_created_on>2018-07-05 17:48:33</sys_created_on>
-            <sys_id>1beb2cfa0f4b5b40dc325d78a1050ead</sys_id>
+            <sys_created_on>2018-10-11 11:42:03</sys_created_on>
+            <sys_id>75d34cde37c9af409e89daa543990e5d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>0kyhill</sys_updated_by>
-            <sys_updated_on>2018-07-05 17:48:33</sys_updated_on>
+            <sys_updated_on>2018-10-11 11:42:03</sys_updated_on>
             <text/>
             <type display_value="Text">863e446c0fd30000b12e6903cfe012ce</type>
         </sys_ui_annotation>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>13eb2cfa0f4b5b40dc325d78a1050ead</element>
+            <element>7dd34cde37c9af409e89daa543990e5c</element>
             <position>0</position>
             <sys_created_by>0kyhill</sys_created_by>
-            <sys_created_on>2018-07-05 17:48:33</sys_created_on>
-            <sys_id>dbeb2cfa0f4b5b40dc325d78a1050ead</sys_id>
+            <sys_created_on>2018-10-11 11:42:03</sys_created_on>
+            <sys_id>39d34cde37c9af409e89daa543990e5d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Construction" display_value="Construction" name="x_sihs_capital_exp_capital_expenditure" sys_domain="global" view="Default view">8935ab200fd09b40dc325d78a1050ea3</sys_ui_section>
             <sys_updated_by>0kyhill</sys_updated_by>
-            <sys_updated_on>2018-07-05 17:48:33</sys_updated_on>
+            <sys_updated_on>2018-10-11 11:42:03</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
@@ -52,13 +52,13 @@
             <element>u_construction_utility_connections</element>
             <position>1</position>
             <sys_created_by>0kyhill</sys_created_by>
-            <sys_created_on>2018-07-05 17:48:33</sys_created_on>
-            <sys_id>5feb2cfa0f4b5b40dc325d78a1050ead</sys_id>
+            <sys_created_on>2018-10-11 11:42:03</sys_created_on>
+            <sys_id>b9d34cde37c9af409e89daa543990e5d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Construction" display_value="Construction" name="x_sihs_capital_exp_capital_expenditure" sys_domain="global" view="Default view">8935ab200fd09b40dc325d78a1050ea3</sys_ui_section>
             <sys_updated_by>0kyhill</sys_updated_by>
-            <sys_updated_on>2018-07-05 17:48:33</sys_updated_on>
+            <sys_updated_on>2018-10-11 11:42:03</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -66,13 +66,13 @@
             <element>u_utility_electrical</element>
             <position>2</position>
             <sys_created_by>0kyhill</sys_created_by>
-            <sys_created_on>2018-07-05 17:48:33</sys_created_on>
-            <sys_id>dfeb2cfa0f4b5b40dc325d78a1050ead</sys_id>
+            <sys_created_on>2018-10-11 11:42:03</sys_created_on>
+            <sys_id>3dd34cde37c9af409e89daa543990e5d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Construction" display_value="Construction" name="x_sihs_capital_exp_capital_expenditure" sys_domain="global" view="Default view">8935ab200fd09b40dc325d78a1050ea3</sys_ui_section>
             <sys_updated_by>0kyhill</sys_updated_by>
-            <sys_updated_on>2018-07-05 17:48:33</sys_updated_on>
+            <sys_updated_on>2018-10-11 11:42:03</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -80,13 +80,13 @@
             <element>u_utility_waterdrain</element>
             <position>3</position>
             <sys_created_by>0kyhill</sys_created_by>
-            <sys_created_on>2018-07-05 17:48:33</sys_created_on>
-            <sys_id>53eb2cfa0f4b5b40dc325d78a1050eae</sys_id>
+            <sys_created_on>2018-10-11 11:42:03</sys_created_on>
+            <sys_id>bdd34cde37c9af409e89daa543990e5d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Construction" display_value="Construction" name="x_sihs_capital_exp_capital_expenditure" sys_domain="global" view="Default view">8935ab200fd09b40dc325d78a1050ea3</sys_ui_section>
             <sys_updated_by>0kyhill</sys_updated_by>
-            <sys_updated_on>2018-07-05 17:48:33</sys_updated_on>
+            <sys_updated_on>2018-10-11 11:42:03</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -94,13 +94,13 @@
             <element>u_utility_mechexhaust</element>
             <position>4</position>
             <sys_created_by>0kyhill</sys_created_by>
-            <sys_created_on>2018-07-05 17:48:33</sys_created_on>
-            <sys_id>d3eb2cfa0f4b5b40dc325d78a1050eae</sys_id>
+            <sys_created_on>2018-10-11 11:42:03</sys_created_on>
+            <sys_id>31d34cde37c9af409e89daa543990e5e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Construction" display_value="Construction" name="x_sihs_capital_exp_capital_expenditure" sys_domain="global" view="Default view">8935ab200fd09b40dc325d78a1050ea3</sys_ui_section>
             <sys_updated_by>0kyhill</sys_updated_by>
-            <sys_updated_on>2018-07-05 17:48:33</sys_updated_on>
+            <sys_updated_on>2018-10-11 11:42:03</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -108,13 +108,13 @@
             <element>u_utility_data</element>
             <position>5</position>
             <sys_created_by>0kyhill</sys_created_by>
-            <sys_created_on>2018-07-05 17:48:33</sys_created_on>
-            <sys_id>57eb2cfa0f4b5b40dc325d78a1050eae</sys_id>
+            <sys_created_on>2018-10-11 11:42:03</sys_created_on>
+            <sys_id>b1d34cde37c9af409e89daa543990e5e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Construction" display_value="Construction" name="x_sihs_capital_exp_capital_expenditure" sys_domain="global" view="Default view">8935ab200fd09b40dc325d78a1050ea3</sys_ui_section>
             <sys_updated_by>0kyhill</sys_updated_by>
-            <sys_updated_on>2018-07-05 17:48:33</sys_updated_on>
+            <sys_updated_on>2018-10-11 11:42:03</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -122,13 +122,13 @@
             <element>u_utility_medgas</element>
             <position>6</position>
             <sys_created_by>0kyhill</sys_created_by>
-            <sys_created_on>2018-07-05 17:48:33</sys_created_on>
-            <sys_id>d7eb2cfa0f4b5b40dc325d78a1050eae</sys_id>
+            <sys_created_on>2018-10-11 11:42:03</sys_created_on>
+            <sys_id>35d34cde37c9af409e89daa543990e5e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Construction" display_value="Construction" name="x_sihs_capital_exp_capital_expenditure" sys_domain="global" view="Default view">8935ab200fd09b40dc325d78a1050ea3</sys_ui_section>
             <sys_updated_by>0kyhill</sys_updated_by>
-            <sys_updated_on>2018-07-05 17:48:33</sys_updated_on>
+            <sys_updated_on>2018-10-11 11:42:03</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -136,13 +136,13 @@
             <element>u_utility_air</element>
             <position>7</position>
             <sys_created_by>0kyhill</sys_created_by>
-            <sys_created_on>2018-07-05 17:48:33</sys_created_on>
-            <sys_id>5beb2cfa0f4b5b40dc325d78a1050eae</sys_id>
+            <sys_created_on>2018-10-11 11:42:03</sys_created_on>
+            <sys_id>b5d34cde37c9af409e89daa543990e5e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Construction" display_value="Construction" name="x_sihs_capital_exp_capital_expenditure" sys_domain="global" view="Default view">8935ab200fd09b40dc325d78a1050ea3</sys_ui_section>
             <sys_updated_by>0kyhill</sys_updated_by>
-            <sys_updated_on>2018-07-05 17:48:33</sys_updated_on>
+            <sys_updated_on>2018-10-11 11:42:03</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -150,13 +150,13 @@
             <element>u_utility_oxygen</element>
             <position>8</position>
             <sys_created_by>0kyhill</sys_created_by>
-            <sys_created_on>2018-07-05 17:48:33</sys_created_on>
-            <sys_id>dbeb2cfa0f4b5b40dc325d78a1050eae</sys_id>
+            <sys_created_on>2018-10-11 11:42:03</sys_created_on>
+            <sys_id>39d34cde37c9af409e89daa543990e5e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Construction" display_value="Construction" name="x_sihs_capital_exp_capital_expenditure" sys_domain="global" view="Default view">8935ab200fd09b40dc325d78a1050ea3</sys_ui_section>
             <sys_updated_by>0kyhill</sys_updated_by>
-            <sys_updated_on>2018-07-05 17:48:33</sys_updated_on>
+            <sys_updated_on>2018-10-11 11:42:03</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -164,27 +164,27 @@
             <element>u_utility_suction</element>
             <position>9</position>
             <sys_created_by>0kyhill</sys_created_by>
-            <sys_created_on>2018-07-05 17:48:33</sys_created_on>
-            <sys_id>5feb2cfa0f4b5b40dc325d78a1050eae</sys_id>
+            <sys_created_on>2018-10-11 11:42:03</sys_created_on>
+            <sys_id>b9d34cde37c9af409e89daa543990e5e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Construction" display_value="Construction" name="x_sihs_capital_exp_capital_expenditure" sys_domain="global" view="Default view">8935ab200fd09b40dc325d78a1050ea3</sys_ui_section>
             <sys_updated_by>0kyhill</sys_updated_by>
-            <sys_updated_on>2018-07-05 17:48:33</sys_updated_on>
+            <sys_updated_on>2018-10-11 11:42:03</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>17eb2cfa0f4b5b40dc325d78a1050ead</element>
+            <element>71d34cde37c9af409e89daa543990e5d</element>
             <position>10</position>
             <sys_created_by>0kyhill</sys_created_by>
-            <sys_created_on>2018-07-05 17:48:33</sys_created_on>
-            <sys_id>dfeb2cfa0f4b5b40dc325d78a1050eae</sys_id>
+            <sys_created_on>2018-10-11 11:42:03</sys_created_on>
+            <sys_id>3dd34cde37c9af409e89daa543990e5e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Construction" display_value="Construction" name="x_sihs_capital_exp_capital_expenditure" sys_domain="global" view="Default view">8935ab200fd09b40dc325d78a1050ea3</sys_ui_section>
             <sys_updated_by>0kyhill</sys_updated_by>
-            <sys_updated_on>2018-07-05 17:48:33</sys_updated_on>
+            <sys_updated_on>2018-10-11 11:42:03</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
@@ -192,13 +192,13 @@
             <element>u_additional_space_req</element>
             <position>11</position>
             <sys_created_by>0kyhill</sys_created_by>
-            <sys_created_on>2018-07-05 17:48:33</sys_created_on>
-            <sys_id>53eb2cfa0f4b5b40dc325d78a1050eaf</sys_id>
+            <sys_created_on>2018-10-11 11:42:03</sys_created_on>
+            <sys_id>bdd34cde37c9af409e89daa543990e5e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Construction" display_value="Construction" name="x_sihs_capital_exp_capital_expenditure" sys_domain="global" view="Default view">8935ab200fd09b40dc325d78a1050ea3</sys_ui_section>
             <sys_updated_by>0kyhill</sys_updated_by>
-            <sys_updated_on>2018-07-05 17:48:33</sys_updated_on>
+            <sys_updated_on>2018-10-11 11:42:03</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -206,13 +206,13 @@
             <element>u_additional_room</element>
             <position>12</position>
             <sys_created_by>0kyhill</sys_created_by>
-            <sys_created_on>2018-07-05 17:48:33</sys_created_on>
-            <sys_id>d3eb2cfa0f4b5b40dc325d78a1050eaf</sys_id>
+            <sys_created_on>2018-10-11 11:42:03</sys_created_on>
+            <sys_id>31d34cde37c9af409e89daa543990e5f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Construction" display_value="Construction" name="x_sihs_capital_exp_capital_expenditure" sys_domain="global" view="Default view">8935ab200fd09b40dc325d78a1050ea3</sys_ui_section>
             <sys_updated_by>0kyhill</sys_updated_by>
-            <sys_updated_on>2018-07-05 17:48:33</sys_updated_on>
+            <sys_updated_on>2018-10-11 11:42:03</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -220,13 +220,13 @@
             <element>u_additional_counter</element>
             <position>13</position>
             <sys_created_by>0kyhill</sys_created_by>
-            <sys_created_on>2018-07-05 17:48:33</sys_created_on>
-            <sys_id>57eb2cfa0f4b5b40dc325d78a1050eaf</sys_id>
+            <sys_created_on>2018-10-11 11:42:03</sys_created_on>
+            <sys_id>b1d34cde37c9af409e89daa543990e5f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Construction" display_value="Construction" name="x_sihs_capital_exp_capital_expenditure" sys_domain="global" view="Default view">8935ab200fd09b40dc325d78a1050ea3</sys_ui_section>
             <sys_updated_by>0kyhill</sys_updated_by>
-            <sys_updated_on>2018-07-05 17:48:33</sys_updated_on>
+            <sys_updated_on>2018-10-11 11:42:03</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -234,13 +234,13 @@
             <element>u_additional_floor</element>
             <position>14</position>
             <sys_created_by>0kyhill</sys_created_by>
-            <sys_created_on>2018-07-05 17:48:33</sys_created_on>
-            <sys_id>d7eb2cfa0f4b5b40dc325d78a1050eaf</sys_id>
+            <sys_created_on>2018-10-11 11:42:03</sys_created_on>
+            <sys_id>35d34cde37c9af409e89daa543990e5f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Construction" display_value="Construction" name="x_sihs_capital_exp_capital_expenditure" sys_domain="global" view="Default view">8935ab200fd09b40dc325d78a1050ea3</sys_ui_section>
             <sys_updated_by>0kyhill</sys_updated_by>
-            <sys_updated_on>2018-07-05 17:48:33</sys_updated_on>
+            <sys_updated_on>2018-10-11 11:42:03</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -248,13 +248,13 @@
             <element>u_reconfig_existing_room</element>
             <position>15</position>
             <sys_created_by>0kyhill</sys_created_by>
-            <sys_created_on>2018-07-05 17:48:33</sys_created_on>
-            <sys_id>5beb2cfa0f4b5b40dc325d78a1050eaf</sys_id>
+            <sys_created_on>2018-10-11 11:42:03</sys_created_on>
+            <sys_id>b5d34cde37c9af409e89daa543990e5f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Construction" display_value="Construction" name="x_sihs_capital_exp_capital_expenditure" sys_domain="global" view="Default view">8935ab200fd09b40dc325d78a1050ea3</sys_ui_section>
             <sys_updated_by>0kyhill</sys_updated_by>
-            <sys_updated_on>2018-07-05 17:48:33</sys_updated_on>
+            <sys_updated_on>2018-10-11 11:42:03</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -262,27 +262,27 @@
             <element>.split</element>
             <position>16</position>
             <sys_created_by>0kyhill</sys_created_by>
-            <sys_created_on>2018-07-05 17:48:33</sys_created_on>
-            <sys_id>dbeb2cfa0f4b5b40dc325d78a1050eaf</sys_id>
+            <sys_created_on>2018-10-11 11:42:03</sys_created_on>
+            <sys_id>39d34cde37c9af409e89daa543990e5f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Construction" display_value="Construction" name="x_sihs_capital_exp_capital_expenditure" sys_domain="global" view="Default view">8935ab200fd09b40dc325d78a1050ea3</sys_ui_section>
             <sys_updated_by>0kyhill</sys_updated_by>
-            <sys_updated_on>2018-07-05 17:48:33</sys_updated_on>
+            <sys_updated_on>2018-10-11 11:42:03</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>1beb2cfa0f4b5b40dc325d78a1050ead</element>
+            <element>75d34cde37c9af409e89daa543990e5d</element>
             <position>17</position>
             <sys_created_by>0kyhill</sys_created_by>
-            <sys_created_on>2018-07-05 17:48:33</sys_created_on>
-            <sys_id>5feb2cfa0f4b5b40dc325d78a1050eaf</sys_id>
+            <sys_created_on>2018-10-11 11:42:03</sys_created_on>
+            <sys_id>b9d34cde37c9af409e89daa543990e5f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Construction" display_value="Construction" name="x_sihs_capital_exp_capital_expenditure" sys_domain="global" view="Default view">8935ab200fd09b40dc325d78a1050ea3</sys_ui_section>
             <sys_updated_by>0kyhill</sys_updated_by>
-            <sys_updated_on>2018-07-05 17:48:33</sys_updated_on>
+            <sys_updated_on>2018-10-11 11:42:03</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>

@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element audit="true" extends="task" label="CapEx Task" max_length="40" name="x_sihs_capital_exp_captask" type="collection"/>
+    <element audit="true" extends="task" label="CapEx Task" max_length="40" name="x_sihs_capital_exp_captask" sizeclass="5" type="collection"/>
 </database>

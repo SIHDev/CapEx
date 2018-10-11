@@ -4,58 +4,58 @@
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
             <sys_created_by>0kyhill</sys_created_by>
-            <sys_created_on>2018-07-05 17:48:34</sys_created_on>
-            <sys_id>dfeb2cfa0f4b5b40dc325d78a1050eca</sys_id>
+            <sys_created_on>2018-10-11 11:42:04</sys_created_on>
+            <sys_id>82d34cde37c9af409e89daa543990e9a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>0kyhill</sys_updated_by>
-            <sys_updated_on>2018-07-05 17:48:34</sys_updated_on>
+            <sys_updated_on>2018-10-11 11:42:04</sys_updated_on>
             <text>SIH Departments</text>
             <type display_value="Section Separator">443e806c0fd30000b12e6903cfe01281</type>
         </sys_ui_annotation>
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
             <sys_created_by>0kyhill</sys_created_by>
-            <sys_created_on>2018-07-05 17:48:34</sys_created_on>
-            <sys_id>d3eb2cfa0f4b5b40dc325d78a1050ecb</sys_id>
+            <sys_created_on>2018-10-11 11:42:04</sys_created_on>
+            <sys_id>86d34cde37c9af409e89daa543990e9a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>0kyhill</sys_updated_by>
-            <sys_updated_on>2018-07-05 17:48:34</sys_updated_on>
+            <sys_updated_on>2018-10-11 11:42:04</sys_updated_on>
             <text>Manuals</text>
             <type display_value="Section Separator">443e806c0fd30000b12e6903cfe01281</type>
         </sys_ui_annotation>
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
             <sys_created_by>0kyhill</sys_created_by>
-            <sys_created_on>2018-07-05 17:48:34</sys_created_on>
-            <sys_id>d7eb2cfa0f4b5b40dc325d78a1050ecb</sys_id>
+            <sys_created_on>2018-10-11 11:42:04</sys_created_on>
+            <sys_id>8ad34cde37c9af409e89daa543990e9a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>0kyhill</sys_updated_by>
-            <sys_updated_on>2018-07-05 17:48:34</sys_updated_on>
+            <sys_updated_on>2018-10-11 11:42:04</sys_updated_on>
             <text>Monitoring</text>
             <type display_value="Section Separator">443e806c0fd30000b12e6903cfe01281</type>
         </sys_ui_annotation>
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
             <sys_created_by>0kyhill</sys_created_by>
-            <sys_created_on>2018-07-05 17:48:34</sys_created_on>
-            <sys_id>dbeb2cfa0f4b5b40dc325d78a1050ecb</sys_id>
+            <sys_created_on>2018-10-11 11:42:04</sys_created_on>
+            <sys_id>8ed34cde37c9af409e89daa543990e9a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>0kyhill</sys_updated_by>
-            <sys_updated_on>2018-07-05 17:48:34</sys_updated_on>
+            <sys_updated_on>2018-10-11 11:42:04</sys_updated_on>
             <text/>
             <type display_value="Text">863e446c0fd30000b12e6903cfe012ce</type>
         </sys_ui_annotation>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>dfeb2cfa0f4b5b40dc325d78a1050eca</element>
+            <element>82d34cde37c9af409e89daa543990e9a</element>
             <position>0</position>
             <sys_created_by>0kyhill</sys_created_by>
-            <sys_created_on>2018-07-05 17:48:34</sys_created_on>
-            <sys_id>9feb2cfa0f4b5b40dc325d78a1050ecb</sys_id>
+            <sys_created_on>2018-10-11 11:42:04</sys_created_on>
+            <sys_id>42d34cde37c9af409e89daa543990e9b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Operation and Maintenance" display_value="Operation and Maintenance" name="x_sihs_capital_exp_capital_expenditure" sys_domain="global" view="Default view">5a93c0ca375c5b409e89daa543990e98</sys_ui_section>
             <sys_updated_by>0kyhill</sys_updated_by>
-            <sys_updated_on>2018-07-05 17:48:34</sys_updated_on>
+            <sys_updated_on>2018-10-11 11:42:04</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
@@ -63,13 +63,13 @@
             <element>u_sih_repair_responsible</element>
             <position>1</position>
             <sys_created_by>0kyhill</sys_created_by>
-            <sys_created_on>2018-07-05 17:48:34</sys_created_on>
-            <sys_id>13eb2cfa0f4b5b40dc325d78a1050ecc</sys_id>
+            <sys_created_on>2018-10-11 11:42:04</sys_created_on>
+            <sys_id>c2d34cde37c9af409e89daa543990e9b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Operation and Maintenance" display_value="Operation and Maintenance" name="x_sihs_capital_exp_capital_expenditure" sys_domain="global" view="Default view">5a93c0ca375c5b409e89daa543990e98</sys_ui_section>
             <sys_updated_by>0kyhill</sys_updated_by>
-            <sys_updated_on>2018-07-05 17:48:34</sys_updated_on>
+            <sys_updated_on>2018-10-11 11:42:04</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -77,27 +77,27 @@
             <element>u_responsible_party</element>
             <position>2</position>
             <sys_created_by>0kyhill</sys_created_by>
-            <sys_created_on>2018-07-05 17:48:34</sys_created_on>
-            <sys_id>93eb2cfa0f4b5b40dc325d78a1050ecc</sys_id>
+            <sys_created_on>2018-10-11 11:42:04</sys_created_on>
+            <sys_id>46d34cde37c9af409e89daa543990e9b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Operation and Maintenance" display_value="Operation and Maintenance" name="x_sihs_capital_exp_capital_expenditure" sys_domain="global" view="Default view">5a93c0ca375c5b409e89daa543990e98</sys_ui_section>
             <sys_updated_by>0kyhill</sys_updated_by>
-            <sys_updated_on>2018-07-05 17:48:34</sys_updated_on>
+            <sys_updated_on>2018-10-11 11:42:04</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>d3eb2cfa0f4b5b40dc325d78a1050ecb</element>
+            <element>86d34cde37c9af409e89daa543990e9a</element>
             <position>3</position>
             <sys_created_by>0kyhill</sys_created_by>
-            <sys_created_on>2018-07-05 17:48:34</sys_created_on>
-            <sys_id>17eb2cfa0f4b5b40dc325d78a1050ecc</sys_id>
+            <sys_created_on>2018-10-11 11:42:04</sys_created_on>
+            <sys_id>c6d34cde37c9af409e89daa543990e9b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Operation and Maintenance" display_value="Operation and Maintenance" name="x_sihs_capital_exp_capital_expenditure" sys_domain="global" view="Default view">5a93c0ca375c5b409e89daa543990e98</sys_ui_section>
             <sys_updated_by>0kyhill</sys_updated_by>
-            <sys_updated_on>2018-07-05 17:48:34</sys_updated_on>
+            <sys_updated_on>2018-10-11 11:42:04</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
@@ -105,153 +105,181 @@
             <element>u_service_manuals</element>
             <position>4</position>
             <sys_created_by>0kyhill</sys_created_by>
-            <sys_created_on>2018-07-05 17:48:34</sys_created_on>
-            <sys_id>97eb2cfa0f4b5b40dc325d78a1050ecc</sys_id>
+            <sys_created_on>2018-10-11 11:42:04</sys_created_on>
+            <sys_id>4ad34cde37c9af409e89daa543990e9b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Operation and Maintenance" display_value="Operation and Maintenance" name="x_sihs_capital_exp_capital_expenditure" sys_domain="global" view="Default view">5a93c0ca375c5b409e89daa543990e98</sys_ui_section>
             <sys_updated_by>0kyhill</sys_updated_by>
-            <sys_updated_on>2018-07-05 17:48:34</sys_updated_on>
+            <sys_updated_on>2018-10-11 11:42:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_service_manual_website</element>
+            <position>5</position>
+            <sys_created_by>0kyhill</sys_created_by>
+            <sys_created_on>2018-10-11 11:42:04</sys_created_on>
+            <sys_id>cad34cde37c9af409e89daa543990e9b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Operation and Maintenance" display_value="Operation and Maintenance" name="x_sihs_capital_exp_capital_expenditure" sys_domain="global" view="Default view">5a93c0ca375c5b409e89daa543990e98</sys_ui_section>
+            <sys_updated_by>0kyhill</sys_updated_by>
+            <sys_updated_on>2018-10-11 11:42:04</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_operator_manual</element>
-            <position>5</position>
+            <position>6</position>
             <sys_created_by>0kyhill</sys_created_by>
-            <sys_created_on>2018-07-05 17:48:34</sys_created_on>
-            <sys_id>1beb2cfa0f4b5b40dc325d78a1050ecc</sys_id>
+            <sys_created_on>2018-10-11 11:42:04</sys_created_on>
+            <sys_id>4ed34cde37c9af409e89daa543990e9b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Operation and Maintenance" display_value="Operation and Maintenance" name="x_sihs_capital_exp_capital_expenditure" sys_domain="global" view="Default view">5a93c0ca375c5b409e89daa543990e98</sys_ui_section>
             <sys_updated_by>0kyhill</sys_updated_by>
-            <sys_updated_on>2018-07-05 17:48:34</sys_updated_on>
+            <sys_updated_on>2018-10-11 11:42:04</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>d7eb2cfa0f4b5b40dc325d78a1050ecb</element>
-            <position>6</position>
+            <element>u_operator_manual_website</element>
+            <position>7</position>
             <sys_created_by>0kyhill</sys_created_by>
-            <sys_created_on>2018-07-05 17:48:34</sys_created_on>
-            <sys_id>9beb2cfa0f4b5b40dc325d78a1050ecc</sys_id>
+            <sys_created_on>2018-10-11 11:42:04</sys_created_on>
+            <sys_id>ced34cde37c9af409e89daa543990e9b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Operation and Maintenance" display_value="Operation and Maintenance" name="x_sihs_capital_exp_capital_expenditure" sys_domain="global" view="Default view">5a93c0ca375c5b409e89daa543990e98</sys_ui_section>
             <sys_updated_by>0kyhill</sys_updated_by>
-            <sys_updated_on>2018-07-05 17:48:34</sys_updated_on>
+            <sys_updated_on>2018-10-11 11:42:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>8ad34cde37c9af409e89daa543990e9a</element>
+            <position>8</position>
+            <sys_created_by>0kyhill</sys_created_by>
+            <sys_created_on>2018-10-11 11:42:04</sys_created_on>
+            <sys_id>42d34cde37c9af409e89daa543990e9c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Operation and Maintenance" display_value="Operation and Maintenance" name="x_sihs_capital_exp_capital_expenditure" sys_domain="global" view="Default view">5a93c0ca375c5b409e89daa543990e98</sys_ui_section>
+            <sys_updated_by>0kyhill</sys_updated_by>
+            <sys_updated_on>2018-10-11 11:42:04</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_equipmon_required</element>
-            <position>7</position>
+            <position>9</position>
             <sys_created_by>0kyhill</sys_created_by>
-            <sys_created_on>2018-07-05 17:48:34</sys_created_on>
-            <sys_id>1feb2cfa0f4b5b40dc325d78a1050ecc</sys_id>
+            <sys_created_on>2018-10-11 11:42:04</sys_created_on>
+            <sys_id>c2d34cde37c9af409e89daa543990e9c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Operation and Maintenance" display_value="Operation and Maintenance" name="x_sihs_capital_exp_capital_expenditure" sys_domain="global" view="Default view">5a93c0ca375c5b409e89daa543990e98</sys_ui_section>
             <sys_updated_by>0kyhill</sys_updated_by>
-            <sys_updated_on>2018-07-05 17:48:34</sys_updated_on>
+            <sys_updated_on>2018-10-11 11:42:04</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_equipmon_temp</element>
-            <position>8</position>
+            <position>10</position>
             <sys_created_by>0kyhill</sys_created_by>
-            <sys_created_on>2018-07-05 17:48:34</sys_created_on>
-            <sys_id>9feb2cfa0f4b5b40dc325d78a1050ecc</sys_id>
+            <sys_created_on>2018-10-11 11:42:04</sys_created_on>
+            <sys_id>46d34cde37c9af409e89daa543990e9c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Operation and Maintenance" display_value="Operation and Maintenance" name="x_sihs_capital_exp_capital_expenditure" sys_domain="global" view="Default view">5a93c0ca375c5b409e89daa543990e98</sys_ui_section>
             <sys_updated_by>0kyhill</sys_updated_by>
-            <sys_updated_on>2018-07-05 17:48:34</sys_updated_on>
+            <sys_updated_on>2018-10-11 11:42:04</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_equipmon_humidity</element>
-            <position>9</position>
+            <position>11</position>
             <sys_created_by>0kyhill</sys_created_by>
-            <sys_created_on>2018-07-05 17:48:34</sys_created_on>
-            <sys_id>13eb2cfa0f4b5b40dc325d78a1050ecd</sys_id>
+            <sys_created_on>2018-10-11 11:42:04</sys_created_on>
+            <sys_id>c6d34cde37c9af409e89daa543990e9c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Operation and Maintenance" display_value="Operation and Maintenance" name="x_sihs_capital_exp_capital_expenditure" sys_domain="global" view="Default view">5a93c0ca375c5b409e89daa543990e98</sys_ui_section>
             <sys_updated_by>0kyhill</sys_updated_by>
-            <sys_updated_on>2018-07-05 17:48:34</sys_updated_on>
+            <sys_updated_on>2018-10-11 11:42:04</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_equipmon_alarms</element>
-            <position>10</position>
+            <position>12</position>
             <sys_created_by>0kyhill</sys_created_by>
-            <sys_created_on>2018-07-05 17:48:34</sys_created_on>
-            <sys_id>93eb2cfa0f4b5b40dc325d78a1050ecd</sys_id>
+            <sys_created_on>2018-10-11 11:42:04</sys_created_on>
+            <sys_id>4ad34cde37c9af409e89daa543990e9c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Operation and Maintenance" display_value="Operation and Maintenance" name="x_sihs_capital_exp_capital_expenditure" sys_domain="global" view="Default view">5a93c0ca375c5b409e89daa543990e98</sys_ui_section>
             <sys_updated_by>0kyhill</sys_updated_by>
-            <sys_updated_on>2018-07-05 17:48:34</sys_updated_on>
+            <sys_updated_on>2018-10-11 11:42:04</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_cappat_data</element>
-            <position>11</position>
+            <position>13</position>
             <sys_created_by>0kyhill</sys_created_by>
-            <sys_created_on>2018-07-05 17:48:34</sys_created_on>
-            <sys_id>17eb2cfa0f4b5b40dc325d78a1050ecd</sys_id>
+            <sys_created_on>2018-10-11 11:42:04</sys_created_on>
+            <sys_id>cad34cde37c9af409e89daa543990e9c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Operation and Maintenance" display_value="Operation and Maintenance" name="x_sihs_capital_exp_capital_expenditure" sys_domain="global" view="Default view">5a93c0ca375c5b409e89daa543990e98</sys_ui_section>
             <sys_updated_by>0kyhill</sys_updated_by>
-            <sys_updated_on>2018-07-05 17:48:34</sys_updated_on>
+            <sys_updated_on>2018-10-11 11:42:04</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_itinterface_required</element>
-            <position>12</position>
+            <position>14</position>
             <sys_created_by>0kyhill</sys_created_by>
-            <sys_created_on>2018-07-05 17:48:34</sys_created_on>
-            <sys_id>97eb2cfa0f4b5b40dc325d78a1050ecd</sys_id>
+            <sys_created_on>2018-10-11 11:42:04</sys_created_on>
+            <sys_id>4ed34cde37c9af409e89daa543990e9c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Operation and Maintenance" display_value="Operation and Maintenance" name="x_sihs_capital_exp_capital_expenditure" sys_domain="global" view="Default view">5a93c0ca375c5b409e89daa543990e98</sys_ui_section>
             <sys_updated_by>0kyhill</sys_updated_by>
-            <sys_updated_on>2018-07-05 17:48:34</sys_updated_on>
+            <sys_updated_on>2018-10-11 11:42:04</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>13</position>
+            <position>15</position>
             <sys_created_by>0kyhill</sys_created_by>
-            <sys_created_on>2018-07-05 17:48:34</sys_created_on>
-            <sys_id>1beb2cfa0f4b5b40dc325d78a1050ecd</sys_id>
+            <sys_created_on>2018-10-11 11:42:04</sys_created_on>
+            <sys_id>ced34cde37c9af409e89daa543990e9c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Operation and Maintenance" display_value="Operation and Maintenance" name="x_sihs_capital_exp_capital_expenditure" sys_domain="global" view="Default view">5a93c0ca375c5b409e89daa543990e98</sys_ui_section>
             <sys_updated_by>0kyhill</sys_updated_by>
-            <sys_updated_on>2018-07-05 17:48:34</sys_updated_on>
+            <sys_updated_on>2018-10-11 11:42:04</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>dbeb2cfa0f4b5b40dc325d78a1050ecb</element>
-            <position>14</position>
+            <element>8ed34cde37c9af409e89daa543990e9a</element>
+            <position>16</position>
             <sys_created_by>0kyhill</sys_created_by>
-            <sys_created_on>2018-07-05 17:48:34</sys_created_on>
-            <sys_id>9beb2cfa0f4b5b40dc325d78a1050ecd</sys_id>
+            <sys_created_on>2018-10-11 11:42:04</sys_created_on>
+            <sys_id>42d34cde37c9af409e89daa543990e9d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Operation and Maintenance" display_value="Operation and Maintenance" name="x_sihs_capital_exp_capital_expenditure" sys_domain="global" view="Default view">5a93c0ca375c5b409e89daa543990e98</sys_ui_section>
             <sys_updated_by>0kyhill</sys_updated_by>
-            <sys_updated_on>2018-07-05 17:48:34</sys_updated_on>
+            <sys_updated_on>2018-10-11 11:42:04</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>

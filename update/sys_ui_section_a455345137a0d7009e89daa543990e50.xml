@@ -4,11 +4,11 @@
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
             <sys_created_by>0kyhill</sys_created_by>
-            <sys_created_on>2018-07-05 17:48:35</sys_created_on>
-            <sys_id>abeb2cfa0f4b5b40dc325d78a1050eef</sys_id>
+            <sys_created_on>2018-10-11 11:42:04</sys_created_on>
+            <sys_id>9ed34cde37c9af409e89daa543990eb3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>0kyhill</sys_updated_by>
-            <sys_updated_on>2018-07-05 17:48:35</sys_updated_on>
+            <sys_updated_on>2018-10-11 11:42:04</sys_updated_on>
             <text/>
             <type display_value="Text">863e446c0fd30000b12e6903cfe012ce</type>
         </sys_ui_annotation>
@@ -16,13 +16,13 @@
             <element>u_shipping_handling</element>
             <position>0</position>
             <sys_created_by>0kyhill</sys_created_by>
-            <sys_created_on>2018-07-05 17:48:35</sys_created_on>
-            <sys_id>6feb2cfa0f4b5b40dc325d78a1050eef</sys_id>
+            <sys_created_on>2018-10-11 11:42:04</sys_created_on>
+            <sys_id>52d34cde37c9af409e89daa543990eb4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Order Totals" display_value="Order Totals" name="x_sihs_capital_exp_capital_expenditure" sys_domain="global" view="Default view">a455345137a0d7009e89daa543990e50</sys_ui_section>
             <sys_updated_by>0kyhill</sys_updated_by>
-            <sys_updated_on>2018-07-05 17:48:35</sys_updated_on>
+            <sys_updated_on>2018-10-11 11:42:04</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -30,13 +30,13 @@
             <element>u_installation_cost</element>
             <position>1</position>
             <sys_created_by>0kyhill</sys_created_by>
-            <sys_created_on>2018-07-05 17:48:35</sys_created_on>
-            <sys_id>efeb2cfa0f4b5b40dc325d78a1050eef</sys_id>
+            <sys_created_on>2018-10-11 11:42:04</sys_created_on>
+            <sys_id>d2d34cde37c9af409e89daa543990eb4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Order Totals" display_value="Order Totals" name="x_sihs_capital_exp_capital_expenditure" sys_domain="global" view="Default view">a455345137a0d7009e89daa543990e50</sys_ui_section>
             <sys_updated_by>0kyhill</sys_updated_by>
-            <sys_updated_on>2018-07-05 17:48:35</sys_updated_on>
+            <sys_updated_on>2018-10-11 11:42:04</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -44,13 +44,13 @@
             <element>u_construction_estimate</element>
             <position>2</position>
             <sys_created_by>0kyhill</sys_created_by>
-            <sys_created_on>2018-07-05 17:48:35</sys_created_on>
-            <sys_id>63eb2cfa0f4b5b40dc325d78a1050ef0</sys_id>
+            <sys_created_on>2018-10-11 11:42:04</sys_created_on>
+            <sys_id>56d34cde37c9af409e89daa543990eb4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Order Totals" display_value="Order Totals" name="x_sihs_capital_exp_capital_expenditure" sys_domain="global" view="Default view">a455345137a0d7009e89daa543990e50</sys_ui_section>
             <sys_updated_by>0kyhill</sys_updated_by>
-            <sys_updated_on>2018-07-05 17:48:35</sys_updated_on>
+            <sys_updated_on>2018-10-11 11:42:04</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -58,13 +58,13 @@
             <element>u_line_item_cost</element>
             <position>3</position>
             <sys_created_by>0kyhill</sys_created_by>
-            <sys_created_on>2018-07-05 17:48:35</sys_created_on>
-            <sys_id>e3eb2cfa0f4b5b40dc325d78a1050ef0</sys_id>
+            <sys_created_on>2018-10-11 11:42:04</sys_created_on>
+            <sys_id>d6d34cde37c9af409e89daa543990eb4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Order Totals" display_value="Order Totals" name="x_sihs_capital_exp_capital_expenditure" sys_domain="global" view="Default view">a455345137a0d7009e89daa543990e50</sys_ui_section>
             <sys_updated_by>0kyhill</sys_updated_by>
-            <sys_updated_on>2018-07-05 17:48:35</sys_updated_on>
+            <sys_updated_on>2018-10-11 11:42:04</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -72,13 +72,13 @@
             <element>u_total_request</element>
             <position>4</position>
             <sys_created_by>0kyhill</sys_created_by>
-            <sys_created_on>2018-07-05 17:48:35</sys_created_on>
-            <sys_id>67eb2cfa0f4b5b40dc325d78a1050ef0</sys_id>
+            <sys_created_on>2018-10-11 11:42:04</sys_created_on>
+            <sys_id>5ad34cde37c9af409e89daa543990eb4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Order Totals" display_value="Order Totals" name="x_sihs_capital_exp_capital_expenditure" sys_domain="global" view="Default view">a455345137a0d7009e89daa543990e50</sys_ui_section>
             <sys_updated_by>0kyhill</sys_updated_by>
-            <sys_updated_on>2018-07-05 17:48:35</sys_updated_on>
+            <sys_updated_on>2018-10-11 11:42:04</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -86,27 +86,27 @@
             <element>.split</element>
             <position>5</position>
             <sys_created_by>0kyhill</sys_created_by>
-            <sys_created_on>2018-07-05 17:48:35</sys_created_on>
-            <sys_id>e7eb2cfa0f4b5b40dc325d78a1050ef0</sys_id>
+            <sys_created_on>2018-10-11 11:42:04</sys_created_on>
+            <sys_id>dad34cde37c9af409e89daa543990eb4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Order Totals" display_value="Order Totals" name="x_sihs_capital_exp_capital_expenditure" sys_domain="global" view="Default view">a455345137a0d7009e89daa543990e50</sys_ui_section>
             <sys_updated_by>0kyhill</sys_updated_by>
-            <sys_updated_on>2018-07-05 17:48:35</sys_updated_on>
+            <sys_updated_on>2018-10-11 11:42:04</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>abeb2cfa0f4b5b40dc325d78a1050eef</element>
+            <element>9ed34cde37c9af409e89daa543990eb3</element>
             <position>6</position>
             <sys_created_by>0kyhill</sys_created_by>
-            <sys_created_on>2018-07-05 17:48:35</sys_created_on>
-            <sys_id>6beb2cfa0f4b5b40dc325d78a1050ef0</sys_id>
+            <sys_created_on>2018-10-11 11:42:04</sys_created_on>
+            <sys_id>5ed34cde37c9af409e89daa543990eb4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Order Totals" display_value="Order Totals" name="x_sihs_capital_exp_capital_expenditure" sys_domain="global" view="Default view">a455345137a0d7009e89daa543990e50</sys_ui_section>
             <sys_updated_by>0kyhill</sys_updated_by>
-            <sys_updated_on>2018-07-05 17:48:35</sys_updated_on>
+            <sys_updated_on>2018-10-11 11:42:04</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>

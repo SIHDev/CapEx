@@ -5,17 +5,20 @@
         <element label="Cap Ex Request" max_length="32" name="cap_ex_request" read_only="true" reference="x_sihs_capital_exp_capital_expenditure" type="reference"/>
         <element label="Vendor Contact information" mandatory="true" max_length="1000" name="contact_information" type="string"/>
         <element label="Extended Cost" max_length="20" name="extended_cost" read_only="true" type="price"/>
-        <element label="Item Name" mandatory="true" max_length="200" name="item_description_name" type="string"/>
+        <element label="Item Description" mandatory="true" max_length="30" name="item_description_name" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Purchase Location" max_length="40" name="lawson_purchase_location" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Vendor Name" max_length="40" name="lawson_vendor_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Vendor Name" mandatory="true" max_length="40" name="lawson_vendor_name" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Vendor Number" max_length="40" name="lawson_vendor_number" type="string"/>
         <element label="Cost Category" mandatory="true" max_length="32" name="lineitem_cost_category" reference="x_sihs_capital_exp_cost_category" type="reference"/>
         <element label="Quantity" mandatory="true" max_length="40" name="quantity" type="integer"/>
         <element label="Sales Representative" mandatory="true" max_length="200" name="sales_representative" type="string"/>
         <element label="Unit Cost" mandatory="true" max_length="20" name="unit_cost" type="price"/>
+        <element attributes="edge_encryption_enabled=true" label="Comments to Print on Delivery Ticket" max_length="1000" name="u_comments_delivery" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Comments to Print on PO" max_length="1000" name="u_comments_po" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Contact Email" mandatory="true" max_length="40" name="u_contact_email" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Contact Name" mandatory="true" max_length="40" name="u_contact_name" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Contact Phone Number" mandatory="true" max_length="40" name="u_contact_phone_num" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Vendor Quote" max_length="40" name="u_vendor_quote" type="string"/>
         <element label="Vendor Product Order Number" mandatory="true" max_length="100" name="vendor_product_order_number" type="string"/>
         <index name="index">
             <element name="attachment"/>

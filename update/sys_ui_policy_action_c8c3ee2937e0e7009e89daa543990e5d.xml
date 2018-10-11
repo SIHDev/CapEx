@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update table="sys_ui_policy_action">
     <sys_ui_policy_action action="INSERT_OR_UPDATE">
-        <disabled>false</disabled>
-        <field>u_capex_req_number</field>
+        <disabled>ignore</disabled>
+        <field>u_operator_manual_website</field>
         <mandatory>ignore</mandatory>
         <sys_class_name>sys_ui_policy_action</sys_class_name>
         <sys_created_by>0kyhill</sys_created_by>
-        <sys_created_on>2018-07-05 17:36:52</sys_created_on>
+        <sys_created_on>2018-09-14 18:53:59</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>c639e87a0f4b5b40dc325d78a1050e05</sys_id>
+        <sys_id>c8c3ee2937e0e7009e89daa543990e5d</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>u_capex_req_number</sys_name>
+        <sys_name>u_operator_manual_website</sys_name>
         <sys_package display_value="Capital Expenditure" source="x_sihs_capital_exp">937153a00f909b40dc325d78a1050ede</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Capital Expenditure">937153a00f909b40dc325d78a1050ede</sys_scope>
-        <sys_update_name>sys_ui_policy_action_c639e87a0f4b5b40dc325d78a1050e05</sys_update_name>
+        <sys_update_name>sys_ui_policy_action_c8c3ee2937e0e7009e89daa543990e5d</sys_update_name>
         <sys_updated_by>0kyhill</sys_updated_by>
-        <sys_updated_on>2018-07-05 17:36:52</sys_updated_on>
+        <sys_updated_on>2018-09-14 18:53:59</sys_updated_on>
         <table>x_sihs_capital_exp_capital_expenditure</table>
-        <ui_policy display_value="Accounting Unit and Account num - Read Only">c2225c7a0f0b5b40dc325d78a1050e73</ui_policy>
-        <visible>ignore</visible>
+        <ui_policy display_value="Yes Website - Operator Manual">d6a3ae2937e0e7009e89daa543990e37</ui_policy>
+        <visible>true</visible>
     </sys_ui_policy_action>
 </record_update>
