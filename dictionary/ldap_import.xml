@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="LDAP Users" max_length="40" name="ldap_import" sizeclass="13237" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="profilePath" max_length="40" name="u_profilepath" type="string"/>
+    </element>
+</database>

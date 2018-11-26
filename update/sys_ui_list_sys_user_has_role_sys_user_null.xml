@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_list parent="sys_user" relationship="" sys_domain="global" table="sys_user_has_role" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>user</element>
+            <list_id display_value="sys_user_has_role" element="NULL" name="sys_user_has_role" parent="sys_user" relationship="NULL" sys_domain="global" view="Default view">8e80d93cdb420300c74effa51d9619dd</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-10-24 02:06:43</sys_created_on>
+            <sys_id>0280d93cdb420300c74effa51d9619de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2017-10-24 02:06:43</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>role</element>
+            <list_id display_value="sys_user_has_role" element="NULL" name="sys_user_has_role" parent="sys_user" relationship="NULL" sys_domain="global" view="Default view">8e80d93cdb420300c74effa51d9619dd</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-10-24 02:06:43</sys_created_on>
+            <sys_id>8280d93cdb420300c74effa51d9619de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2017-10-24 02:06:43</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>state</element>
+            <list_id display_value="sys_user_has_role" element="NULL" name="sys_user_has_role" parent="sys_user" relationship="NULL" sys_domain="global" view="Default view">8e80d93cdb420300c74effa51d9619dd</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-10-24 02:06:43</sys_created_on>
+            <sys_id>0680d93cdb420300c74effa51d9619de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2017-10-24 02:06:43</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>granted_by</element>
+            <list_id display_value="sys_user_has_role" element="NULL" name="sys_user_has_role" parent="sys_user" relationship="NULL" sys_domain="global" view="Default view">8e80d93cdb420300c74effa51d9619dd</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-10-24 02:06:43</sys_created_on>
+            <sys_id>8680d93cdb420300c74effa51d9619de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2017-10-24 02:06:43</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>inherited</element>
+            <list_id display_value="sys_user_has_role" element="NULL" name="sys_user_has_role" parent="sys_user" relationship="NULL" sys_domain="global" view="Default view">8e80d93cdb420300c74effa51d9619dd</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-10-24 02:06:43</sys_created_on>
+            <sys_id>0a80d93cdb420300c74effa51d9619de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2017-10-24 02:06:43</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>sys_user_has_role</name>
+            <parent>sys_user</parent>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>0kyhill</sys_created_by>
+            <sys_created_on>2018-11-13 12:28:21</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>42ea0a74db39a3005020fe21399619e7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name/>
+            <sys_package/>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Capital Expenditure">937153a00f909b40dc325d78a1050ede</sys_scope>
+            <sys_update_name/>
+            <sys_updated_by>0kyhill</sys_updated_by>
+            <sys_updated_on>2018-11-13 12:28:21</sys_updated_on>
+            <sys_user display_value="Kyle Hill Admin">09d6c3ea3753c200c2b18ff1b3990ea4</sys_user>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

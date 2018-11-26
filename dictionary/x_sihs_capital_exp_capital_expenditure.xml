@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element audit="true" extends="task" label="Capital Expenditure" max_length="40" name="x_sihs_capital_exp_capital_expenditure" sizeclass="50" type="collection">
+    <element audit="true" extends="task" label="Capital Expenditure" max_length="40" name="x_sihs_capital_exp_capital_expenditure" sizeclass="56" type="collection">
         <element label="Stage" max_length="80" name="stage" read_only="true" type="workflow"/>
         <element attributes="edge_encryption_enabled=true" label="Accounting Unit" max_length="40" name="u_accounting_unit" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Account #" max_length="40" name="u_account_num" type="string"/>
@@ -125,7 +125,7 @@
         </element>
         <element label="Requested for" max_length="32" name="u_requested_for" reference="sys_user" type="reference"/>
         <element label="Facility" mandatory="true" max_length="32" name="u_req_details_facility" reference="x_sihs_capital_exp_facility" type="reference"/>
-        <element attributes="edge_encryption_enabled=true" label="Vendor contact responsible for repair and maintenance" max_length="40" name="u_responsible_party" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Vendor contact responsible for repair and maintenance" max_length="125" name="u_responsible_party" type="string"/>
         <element label="Clinical Engineering" max_length="40" name="u_review_clinical_engineering" type="boolean"/>
         <element label="Facility Engineering" max_length="40" name="u_review_facility_engineering" type="boolean"/>
         <element label="Information Technology" max_length="40" name="u_review_information_technology" type="boolean"/>
@@ -186,7 +186,7 @@
                 <element label="No" sequence="1" value="No"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" label="Vendor contact responsible for assembly, setup, and/or installation" max_length="40" name="u_sihsetup_responparty" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Vendor contact responsible for assembly, setup, and/or installation" max_length="125" name="u_sihsetup_responparty" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Is an SIH department responsible for repair and maintenance" mandatory="true" max_length="40" name="u_sih_repair_responsible" type="string">
             <choice>
                 <element label="Yes Facilities Engineering" sequence="0" value="Yes Facilities Engineering"/>

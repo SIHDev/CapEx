@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="u_profilepath" label="profilePath" language="en" table="ldap_import">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_profilepath</element>
+            <help/>
+            <hint/>
+            <label>profilePath</label>
+            <language>en</language>
+            <name>ldap_import</name>
+            <plural>profilePaths</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>tuan.nguyen@aos5.com</sys_created_by>
+            <sys_created_on>2018-10-27 06:01:14</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>154f059737512f809e89daa543990e12</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>profilePath</sys_name>
+            <sys_package display_value="Capital Expenditure" source="x_sihs_capital_exp">937153a00f909b40dc325d78a1050ede</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Capital Expenditure">937153a00f909b40dc325d78a1050ede</sys_scope>
+            <sys_update_name>sys_documentation_ldap_import_u_profilepath_en</sys_update_name>
+            <sys_updated_by>tuan.nguyen@aos5.com</sys_updated_by>
+            <sys_updated_on>2018-10-27 06:01:14</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
