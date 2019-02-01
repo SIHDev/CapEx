@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element audit="true" extends="task" label="Capital Expenditure" max_length="40" name="x_sihs_capital_exp_capital_expenditure" sizeclass="56" type="collection">
+    <element audit="true" extends="task" label="Capital Expenditure" max_length="40" name="x_sihs_capital_exp_capital_expenditure" sizeclass="9" type="collection">
         <element label="Stage" max_length="80" name="stage" read_only="true" type="workflow"/>
         <element attributes="edge_encryption_enabled=true" label="Accounting Unit" max_length="40" name="u_accounting_unit" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Account #" max_length="40" name="u_account_num" type="string"/>
@@ -105,9 +105,10 @@
         <element attributes="omit_sys_original=true,serializer=com.glide.script.PriceXMLSerializer" label="Line Item Cost" max_length="20" name="u_line_item_cost" read_only="true" type="price"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Operator manuals included" mandatory="true" max_length="40" name="u_operator_manual" type="string">
             <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
                 <element label="Yes Hard Copy" sequence="0" value="Yes Hard Copy"/>
+                <element label="No" sequence="1" value="No"/>
                 <element label="Yes Website" sequence="1" value="Yes Website"/>
-                <element label="No" sequence="2" value="No"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="Website" max_length="40" name="u_operator_manual_website" type="string"/>
@@ -131,9 +132,10 @@
         <element label="Information Technology" max_length="40" name="u_review_information_technology" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Service manuals included" mandatory="true" max_length="40" name="u_service_manuals" type="string">
             <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
                 <element label="Yes Hard Copy" sequence="0" value="Yes Hard Copy"/>
+                <element label="No" sequence="1" value="No"/>
                 <element label="Yes Website" sequence="1" value="Yes Website"/>
-                <element label="No" sequence="2" value="No"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="Website" max_length="40" name="u_service_manual_website" type="string"/>

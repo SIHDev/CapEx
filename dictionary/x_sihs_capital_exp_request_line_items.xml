@@ -18,7 +18,7 @@
         <element attributes="edge_encryption_enabled=true" label="Contact Email" mandatory="true" max_length="40" name="u_contact_email" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Contact Name" mandatory="true" max_length="40" name="u_contact_name" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Contact Phone Number" mandatory="true" max_length="40" name="u_contact_phone_num" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Vendor Quote" max_length="40" name="u_vendor_quote" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Vendor Quote Number" max_length="40" name="u_vendor_quote" type="string"/>
         <element label="Vendor Product Order Number" mandatory="true" max_length="100" name="vendor_product_order_number" type="string"/>
         <index name="index">
             <element name="attachment"/>

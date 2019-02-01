@@ -53,7 +53,7 @@
         <sys_created_by>0kyhill</sys_created_by>
         <sys_created_on>2018-04-09 14:36:11</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>22ecbfea371997009e89daa543990e43</sys_id>
+        <sys_id>6635c266db0a9f40007ff1e51d9619f7</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Facility Name</sys_name>
         <sys_package display_value="Capital Expenditure" source="x_sihs_capital_exp">937153a00f909b40dc325d78a1050ede</sys_package>
@@ -61,8 +61,8 @@
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Capital Expenditure">937153a00f909b40dc325d78a1050ede</sys_scope>
         <sys_update_name>sys_dictionary_x_sihs_capital_exp_routing_facility_name</sys_update_name>
-        <sys_updated_by>0kyhill</sys_updated_by>
-        <sys_updated_on>2018-04-09 14:36:11</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-11-26 13:54:50</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

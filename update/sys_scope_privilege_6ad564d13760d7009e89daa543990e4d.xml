@@ -2,7 +2,7 @@
 <record_update table="sys_scope_privilege">
     <sys_scope_privilege action="INSERT_OR_UPDATE">
         <operation>read</operation>
-        <source_scope/>
+        <source_scope display_value="Capital Expenditure">937153a00f909b40dc325d78a1050ede</source_scope>
         <status>allowed</status>
         <sys_class_name>sys_scope_privilege</sys_class_name>
         <sys_created_by>0kyhill</sys_created_by>

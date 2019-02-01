@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element label="Group Management" max_length="40" name="x_sihs_capital_exp_group_management" type="collection">
-        <element label="Group" max_length="32" name="group" reference="sys_user_group" reference_qual="typeLIKEeac5bf2837c21f009e89daa543990e8f^EQ" reference_qual_condition="typeLIKEeac5bf2837c21f009e89daa543990e8f^EQ" type="reference"/>
+        <element label="Group" max_length="32" name="group" reference="sys_user_group" reference_qual="typeLIKEf146826adb0a9f40007ff1e51d9619c2^EQ" reference_qual_condition="typeLIKEf146826adb0a9f40007ff1e51d9619c2^EQ" type="reference"/>
         <element label="User" max_length="32" name="user" reference="sys_user" type="reference"/>
         <index name="index">
             <element name="user"/>
